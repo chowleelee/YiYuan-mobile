@@ -1,0 +1,279 @@
+@rem: 36rem;
+
+.problemDetails{
+  background-color: #f5f5f5;
+      .problemDetails-question{
+            padding: 36/@rem 30/@rem 0;
+            background: #fff;
+            .question-title{
+                  display: flex;
+                  justify-content:space-between;
+                  align-items:center;
+                  .question-title-left{
+                        display: flex;
+                        align-items:center;
+                       .avatar{
+                              width: 50/@rem;
+                              height: 50/@rem;
+                              border-radius: 50%;
+                        } 
+                        .question-name{
+                              margin-left: .475rem;
+                              color: #999;
+                              font-size:30/@rem;
+                        } 
+                  }
+                  .question-price{
+                        color: #f85f48;
+                  }
+            }
+            .question-content{
+                      margin-top: 10/@rem;
+                      line-height: 42/@rem;
+                      font-size: 30/@rem;
+                      color: #3f3f3f;
+                      text-align: left;
+            }
+            .question-answer{
+                  display: flex;
+                  align-items:center;
+                  margin-top: 20/@rem;
+                  .problemDetails-avatar{
+                      position: relative;
+                      width: 90/@rem;
+                      height: 90/@rem;
+                      border-radius: 50%;
+                      display: inline-block;
+                      margin-right: 20/@rem;
+                      img{
+                            position: relative;
+                            width: 90/@rem;
+                            height: 90/@rem;
+                            border-radius: 50%;
+                            display: inline-block;
+                        }
+                        .avatar-true{
+                            position: absolute;
+                            width: 40/@rem;
+                            height: 40/@rem;
+                            right: 0;
+                            bottom: 0;
+                        }
+                  }
+                  .audio-answer{
+                    .bubble{
+                        float: left;
+                        margin-left: 20/@rem;
+                        display: block;
+                        background: #1ccda6;
+                        line-height: 80/@rem;
+                        height: 80/@rem;
+                        border-radius: 1.1rem;
+                        text-align: center;
+                        min-width: 360/@rem;
+                        color: #fff;
+                        font-size: .8rem;
+                        text-decoration: none;
+                        position: relative;
+                        margin-right: .35rem;
+                        .bubble-tail{
+                                width: .83rem;
+                                height: 1.185rem;
+                                position: absolute;
+                                bottom: 0;
+                                left: -.3rem;
+                                background-image: url("../img/tutorDetails-yuyin.png");
+                                background-size: .83rem 1.185rem;
+                        }
+                        .wave1,.wave2,.wave3{
+                              display: block;
+                              width: .8rem;
+                              height: .8rem;
+                              background-size: .8rem;
+                              position: absolute;
+                              top: .65rem;
+                              left: .65rem;
+                        }
+                        .wave1{
+                          background-image: url("../img/tutorDetails-yuyin2.png");
+                        }
+                        .wave2{
+                          background-image: url("../img/tutorDetails-yuyin3.png");
+                        }
+                        .wave3{
+                          background-image: url("../img/tutorDetails-yuyin4.png");
+                        }
+                    }
+                    .bubble-blue{
+                      float: left;
+                              margin-left: 20/@rem;
+                              display: block;
+                              background: #28aef5;
+                              line-height: 2.2rem;
+                              height: 2.2rem;
+                              border-radius: 1.1rem;
+                              text-align: center;
+                              min-width: 9rem;
+                              color: #fff;
+                              font-size: .8rem;
+                              text-decoration: none;
+                              position: relative;
+                              margin-right: .35rem;
+                              .bubble-tail{
+                                      width: .83rem;
+                                      height: 1.185rem;
+                                      position: absolute;
+                                      bottom: 0;
+                                      left: -.3rem;
+                                      background-image: url("../img/listen-yuyin.png");
+                                      background-size: .83rem 1.185rem;
+                              }
+                              .wave1,.wave2,.wave3{
+                                    display: block;
+                                    width: .8rem;
+                                    height: .8rem;
+                                    background-size: .8rem;
+                                    position: absolute;
+                                    top: .65rem;
+                                    left: .65rem;
+                              }
+                              .wave1{
+                                background-image: url("../img/tutorDetails-yuyin2.png");
+                              }
+                              .wave2{
+                                background-image: url("../img/tutorDetails-yuyin3.png");
+                              }
+                              .wave3{
+                                background-image: url("../img/tutorDetails-yuyin4.png");
+                              }
+                    }
+                  }
+                  .text-answer{
+                    .pay-look{
+                      display: inline-block;
+                      background: url(../img/uhome1.png) no-repeat;
+                      background-color: #1ccda6;
+                      background-position: 20/@rem 16/@rem;
+                      background-size:40/@rem;
+                      padding: 20/@rem 40/@rem 20/@rem 100/@rem;
+                        border-radius: 20/@rem;
+                      color: #fff;
+                    }
+                  }
+                  .duration{
+                      color: #c3c3c3;
+                      font-size: 30/@rem;
+                  }
+                  
+            }
+            .question-footer{
+                  .mint-popup{
+                        width: 80%;
+                        height: 144/@rem;
+                        line-height: 144/@rem;
+                        border-radius: 10px;
+                        font-size: 34/@rem;
+                        color: #3f3f3f;
+                  }
+                  display: flex;
+                  font-size: 24/@rem;
+                  color: #ababab;
+                  align-items:center;
+                  justify-content:space-between;
+                  .count{
+                        margin-right: 20/@rem;
+                        height: 64.8/@rem;
+                        line-height: 64.8/@rem;
+                        .like-icon{
+                              width: 28.8/@rem;
+                              height: 28.8/@rem;
+                              color: #999;
+                              display: inline-block;
+                              background-repeat: no-repeat;
+                              background-size: contain;
+                              vertical-align: -10%;
+                              background-image: url("../img/tutorDetails-good.png");
+                        }
+                        .like-icon-zan{
+                              width: 28.8/@rem;
+                              height: 28.8/@rem;
+                              color: #999;
+                              display: inline-block;
+                              background-repeat: no-repeat;
+                              background-size: contain;
+                              vertical-align: -10%;
+                              background-image: url("../img/dianzan.png");
+                        }
+                  }
+           }
+      }
+      .tutor-card{
+            margin-top: 8/@rem;
+            background-color: #fff;   
+            padding: 36/@rem 30/@rem;
+            .tutor-content{
+                  text-align: left;
+                  background-image: url("../img/tutorDetails-footer-right.jpg");
+                  background-repeat: no-repeat;
+                  background-position: 100% 50%;
+                  background-size: .325rem .65rem;
+                  .tutor-content-top{
+                        font-size: 24/@rem;
+                        color: #999;
+                        line-height: 40.5/@rem;
+                        margin-bottom: 10/@rem;
+                        .tutor-name{
+                              font-size: 36/@rem;
+                              color: #3f3f3f;
+                              margin-right: 10/@rem;
+                        }
+                  }
+                  .tutor-title{
+                        font-size: 28/@rem;
+                        line-height: 40.5/@rem;
+                        color: #999;
+                  }
+            }
+      }
+      .randomQuestion{
+            //margin-top: 54/@rem;
+            //margin-bottom: 144/@rem;
+          overflow: hidden;
+            .title{
+                      color: #999;
+                      font-size: 30/@rem;
+                      text-align: left;
+                      padding:30/@rem;
+                      font-weight: 400;
+                      overflow: hidden;
+                      margin:0;
+            }
+            .question-normal{
+                      padding: 18/@rem 30/@rem;
+                      padding-right: 50/@rem;
+                      border-top: 1px solid #e5e5e5;
+                      background-color: #fff;
+                      background-image: url("../img/tutorDetails-footer-right.jpg");  
+                      background-repeat: no-repeat;
+                      background-size: .325rem .65rem;
+                      background-position: center right .6rem;
+                      .content{
+                            color: #3f3f3f;
+                            text-align: left;
+                            font-size: 30/@rem;
+                            margin-bottom: 18/@rem;
+                      }
+                      .leader{
+                        text-align: left;
+                        color: #999;
+                        font-size: 26/@rem;
+                      }
+                      .footer{
+                        margin-top: 20/@rem;
+                        text-align: left;
+                        color: #999;
+                        font-size: 26/@rem;
+                      }
+            }
+      }
+}

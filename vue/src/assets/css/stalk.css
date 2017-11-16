@@ -1,0 +1,143 @@
+.talk {
+  background: #f5f5f5;
+  margin: 0px auto 4.16666667rem;
+}
+.talk .smallTalk {
+  background: #fff;
+}
+.talk .smallTalk .subject {
+  text-align: left;
+  font-size: 0.88888889rem;
+  margin: 0.83333333rem auto;
+  display: flex;
+  justify-content: space-between;
+}
+.talk .smallTalk .subject .allsub {
+  display: inline-block;
+  padding-right: 0.55555556rem;
+  text-align: left;
+  font-size: 0.72222222rem;
+  color: #999;
+  background: url('../img/rightbtn.png') no-repeat;
+  background-size: 0.3rem 0.7rem;
+  background-position: 100%;
+  font-weight: normal;
+}
+.talk .smallTalk .sub_pic {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.talk .smallTalk .sub_pic li {
+  display: inline-block;
+  width: 48%;
+  margin-bottom: 0.55555556rem;
+}
+.talk .smallTalk .sub_pic li img {
+  width: 100%;
+  height: 100%;
+}
+.talk .smallTalk .smallTalk-content {
+  margin-top: 0.55555556rem;
+}
+.talk .smallTalk .smallTalk-cate {
+  color: #999999;
+  border-bottom: 1px solid #eaeaea;
+}
+.talk .smallTalk .mint-navbar {
+  overflow: scroll;
+  overflow-scrolling: touch;
+}
+.talk .smallTalk .mint-navbar .mint-tab-item {
+  flex: none;
+  margin-right: 1rem;
+  padding: 0.83333333rem 0 0.55555556rem;
+}
+.talk .smallTalk .mint-navbar .mint-tab-item.is-selected {
+  border-bottom: 4px #f76943 solid;
+  color: #f76943;
+  font-weight: bold;
+}
+.talk .smallTalk .mint-navbar .mint-tab-item.is-selected .mint-tab-item-label {
+  font-size: 0.83333333rem;
+}
+.talk .smallTalk .mint-navbar .mint-tab-item .mint-tab-item-label {
+  font-size: 0.72222222rem;
+}
+.talk .smallTalk .mint-navbar::-webkit-scrollbar {
+  display: none;
+}
+.talk .smallTalk .mint-cell-wrapper {
+  padding: 0;
+  border-bottom: 1px solid #ccc;
+}
+.talk .smallTalk .mint-cell-wrapper .mint-cell-title {
+  flex: 0;
+}
+.talk .smallTalk .mint-cell-wrapper .mint-cell-value {
+  overflow: hidden;
+}
+.talk .smallTalk .smallTalk-details {
+  display: flex;
+  color: #999;
+  font-size: 0.61111111rem;
+  padding: 0.83333333rem 0;
+  overflow: hidden;
+}
+.talk .smallTalk .smallTalk-details .head-img {
+  width: 3.19444444rem;
+  flex: none;
+  margin-right: 0.77777778rem;
+}
+.talk .smallTalk .smallTalk-details .head-img img {
+  width: 100%;
+}
+.talk .smallTalk .smallTalk-details .info {
+  text-align: left;
+  overflow: hidden;
+}
+.talk .smallTalk .smallTalk-details .info .title {
+  margin: 0;
+  color: #131313;
+  font-size: 0.77777778rem;
+  margin-bottom: 0.22222222rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  flex: 1;
+}
+.talk .smallTalk .smallTalk-details .info .title .new {
+  display: inline-block;
+  padding: 0.13888889rem;
+  background: #f85f48;
+  color: #fff;
+  margin-right: 0.41666667rem;
+  font-weight: normal;
+  border-radius: 3px;
+}
+.talk .smallTalk .smallTalk-details .info .tutor {
+  font-size: 0.72222222rem;
+  margin-bottom: 0.41666667rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.talk .smallTalk .smallTalk-details .info .join_number {
+  margin-bottom: 0.27777778rem;
+  font-size: 0.66666667rem;
+}
+.talk .smallTalk .smallTalk-details .info .join_number span {
+  border: 1px solid #9a9a9a;
+  border-radius: 5px;
+  padding: 1px 0.27777778rem;
+  margin-right: 0.27777778rem;
+}
+.talk .smallTalk .more {
+  padding: 0.69444444rem 0;
+  font-size: 0.5rem;
+  color: #5053ec;
+}
+.talk .smallTalk .more span {
+  margin-left: 0.27777778rem;
+}

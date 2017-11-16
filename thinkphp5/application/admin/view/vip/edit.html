@@ -1,0 +1,50 @@
+
+{include file="public/header"} 
+
+<div class="self-container mt-3">
+    <h3>答主编辑页</h3>
+    <form action="{:url('update')}" method="post">
+        <div class="form-group">
+            <label >姓名</label>
+            <input type="text" class="form-control" name="real_name" value="{$vip_info['real_name']}">
+        </div>
+        <div class="form-group">
+            <label >头衔</label>
+            <input type="text" class="form-control" name="identity" value="{$vip_info['identity']}">
+        </div>
+        <div class="form-group">
+            <label >答主分类</label>
+            <select name="vip_cate_id" class="form-control">
+                <option value="">请选择</option>
+               {foreach $vpcate_list as $value}
+                <option value="{$value['id']}" {if $value['id']==$vip_info['id']} selected {/if}>{$value['cate_name']}</option>
+               {/foreach}
+            </select>
+        </div>             
+        <div class="form-group">
+            <label >特权</label>
+            <input type="text" class="form-control" name="sort">
+        </div> 
+        <div class="form-group">
+            <label><input name="is_real" type="radio" value="" {if $vip_info['is_real']==1} checked {/if} />认证答主</label> 
+            <label><input name="is_real" type="radio" value="" {if $vip_info['is_real']==0} checked {/if}  />普通答主</label> 
+        </div>  
+        <div class="form-group">
+            <label >简介</label>
+            <textarea id="text_content" name="introduce" style="width:100%">{$vip_info['introduce']}</textarea>
+        </div>    
+        <div class="form-group">
+            <input type="hidden" name="id" value="{$vip_info.id}">
+            <input type="submit" class="btn btn-info" value="保存">
+        </div>
+    </form>
+</div>
+
+<script type="text/javascript" src="__PUBLIC__/static/library/ueditor/ueditor.config.js"></script>
+<script type="text/javascript" src="__PUBLIC__/static/library/ueditor/ueditor.all.min.js"></script>
+<!-- 实例化编辑器 -->
+<script type="text/javascript">
+    var ue = UE.getEditor('text_content');
+</script>
+
+{include file="public/footer"}

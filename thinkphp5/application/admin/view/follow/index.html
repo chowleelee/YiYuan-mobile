@@ -1,0 +1,29 @@
+{include file="public/header"} 
+
+<div class="mt-3">
+    <table class="table">
+        <tr>
+            <th>编号</th>
+            <th>答主</th>
+            <th>用户</th>
+            <th>操作</th>
+        </tr>
+        {foreach $vplisten_list as $value}
+        <tr>
+            <td>{$value['id']}</td>
+            <td title="{$value['real_name']}">{$value['real_name']}</td>
+            <td title="{$value['user_name']}">{$value['user_name']}</td>
+            <td>
+                <a href="{:url('delete',['id'=>$value['id']])}" class="btn btn-danger">删除</a>
+            </td>
+        </tr>
+        {/foreach}
+    </table>
+    <div>
+        {$vplisten_list->render()}
+    </div>
+</div>
+<script>
+    
+</script>
+{include file="public/footer"}

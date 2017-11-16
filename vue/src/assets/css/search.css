@@ -1,0 +1,129 @@
+.mysearch {
+  background: #fff;
+  padding: 0.83333333rem 0 0.55555556rem;
+}
+.mysearch .search {
+  line-height: 1.55555556rem;
+  border: 1px solid #ccc;
+  background: #f8f8f8;
+  color: #b9b9b9;
+  font-size: 0.61111111rem;
+  width: 18.05555556rem;
+  margin: auto;
+}
+.mysearch .search .search-icon {
+  font-family: mintui!important;
+  font-style: normal;
+  padding-right: 0.27777778rem;
+}
+.mysearch .search .search-icon:before {
+  content: "\E604";
+}
+.mysearch .searching {
+  position: fixed;
+  height: 100%;
+  background: #fff;
+  z-index: 5;
+  width: 100%;
+}
+.mysearch .searching .page-search {
+  display: flex;
+  align-items: center;
+  height: 1.94444444rem;
+}
+.mysearch .searching .page-search .cancel {
+  font-size: 0.83333333rem;
+  color: #999;
+  margin-right: 0.55555556rem;
+}
+.mysearch .searching .page-search .search-text {
+  border-radius: 0.27777778rem;
+  flex: auto;
+  height: 100%;
+  border: 1px solid #ddd;
+  outline: none;
+  margin-right: 0.55555556rem;
+  text-indent: 0.83333333rem;
+  font-size: 0.83333333rem;
+}
+.mysearch .searching .page-search .mint-button--danger {
+  background-color: #f85f48;
+}
+.mysearch .searching .page-search .search-btn {
+  font-size: 0.83333333rem;
+  height: 100%;
+  padding: 0 0.83333333rem;
+}
+.mysearch .searching .hot {
+  text-align: left;
+  margin-top: 0.83333333rem;
+}
+.mysearch .searching .hot .hot-title {
+  font-size: 0.72222222rem;
+  color: #9b9b9b;
+}
+.mysearch .searching .hot ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.mysearch .searching .hot ul li {
+  font-size: 0.88888889rem;
+  padding: 0.27777778rem 0.83333333rem;
+  border: 1px solid #ccc;
+  margin-right: 0.69444444rem;
+  margin-top: 0.83333333rem;
+  border-radius: 0.27777778rem;
+}
+.mysearch .searching .history {
+  text-align: left;
+  margin-top: 0.83333333rem;
+}
+.mysearch .searching .history .history-title {
+  padding-bottom: 0.55555556rem;
+  font-size: 0.72222222rem;
+  color: #9b9b9b;
+  border-bottom: 1px solid #e5e5e5;
+  display: flex;
+}
+.mysearch .searching .history .history-title span:nth-child(1) {
+  flex: 9;
+}
+.mysearch .searching .history .history-title span:nth-child(2) {
+  width: .7rem;
+  height: .75rem;
+  align-self: center;
+  color: #9b9b9b;
+  background: url('../img/search2.png');
+  background-size: 0.7rem 0.75rem;
+  background-repeat: no-repeat;
+}
+.mysearch .searching .history ul li {
+  border-bottom: 1px solid #e5e5e5;
+  font-size: 0.83333333rem;
+  color: #191919;
+  padding: 0.55555556rem 0;
+  display: flex;
+}
+.mysearch .searching .history ul li span:nth-child(1) {
+  flex: 9;
+}
+.mysearch .searching .history ul li span:nth-child(2) {
+  width: .45rem;
+  height: .45rem;
+  align-self: center;
+  color: #9b9b9b;
+  background: url('../img/search1.png');
+  background-size: 0.45rem 0.45rem;
+  background-repeat: no-repeat;
+}
+.mysearch .tips {
+  position: relative;
+  z-index: 19891014;
+}
+.mysearch .tips .mint-popup {
+  width: 80%;
+  height: 4rem;
+  line-height: 4rem;
+  border-radius: 10px;
+  z-index: 19891015;
+}

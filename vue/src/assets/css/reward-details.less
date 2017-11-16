@@ -1,0 +1,187 @@
+@rem: 36rem;
+
+.reward-details{
+
+	background: #e5e5e5;
+	overflow: hidden;
+	min-height: 100%;
+	 .title-content{
+		padding-bottom: 20/@rem;
+		
+		.header{
+			background: white;
+			padding: 25/@rem 30/@rem;
+			text-align: left;
+			display: flex;	
+			img{
+				display: inline-block;
+				width: 50/@rem;
+				height: 50/@rem;
+				border-radius: 50%;
+				align-self:center;
+			}
+			.user{
+				color: #999;
+				margin-left: 10/@rem;
+				align-self:center;
+				flex:8;
+				font-size: 28/@rem;
+			}
+			.price{
+				float: right;
+				color: #f85f48;
+				align-self:center;
+				font-size: 30/@rem;
+			}
+		}
+		.main-content{
+			padding: 0 30/@rem;
+			background: white;
+			font-size: 32/@rem;
+			p{
+				text-align: left;
+			}
+		}
+		.reply-panel{
+			background: white;
+			.reply-btn{
+				display: inline-block;
+    			padding: 15/@rem 45/@rem;
+    			background: #999;
+    			border-radius: 40/@rem;
+    			color: #fff;
+    			font-size: 32/@rem;
+    			margin: 30/@rem 0 20/@rem 0;
+    			&.access-to-answer{
+    				background: #f85f48;
+    			}
+			}
+		}
+		.footer{
+			background: white;
+			font-size: 26/@rem;
+			color: #999;
+			padding: 10/@rem 0 30/@rem 0;
+			.disable-reason{
+				margin-bottom: 20/@rem;
+			}
+		}
+	}
+	.reward-link{
+		background: #e5e5e5;
+		padding-bottom: 20/@rem;
+		.link-content{
+			background: white;
+			padding: 50/@rem 30/@rem 30/@rem 30/@rem;
+			text-align: left;
+			position: relative;
+			img{
+				display: inline-block;
+				width: 60/@rem;
+			}
+			p{
+				display: inline-block;
+			}
+			.link-title{
+				font-size: 34/@rem;
+				color: #f85f48;
+				position: relative;
+				top: -40/@rem;
+				left: 30/@rem;
+			}
+			.info{
+				color: #999;
+				font-size: 28/@rem;
+				display: block;
+				position: relative;
+				top: -20/@rem;
+				left: 105/@rem;
+			}
+			span{
+				position: absolute;
+				right: 30/@rem;
+				top: 60/@rem;
+				color: #999;
+			}
+		}
+	}
+	.replies{
+		padding-bottom:150/@rem;
+		.relies-content{
+			background: #e5e5e5;
+			.a-relay{
+				background: white;
+				padding: 30/@rem;
+				font-size: 28/@rem;
+				color: #999;
+				overflow: hidden;
+				margin-bottom: 1px;
+				display: flex;
+				.a-left{
+					//flex:none;
+					img{
+						display: inline-block;
+						width: 80/@rem;
+						height:80/@rem;
+						border-radius: 50%; 
+					}
+				}
+				.a-right{
+					text-align: left;
+					margin-left: 20/@rem;
+					width:85%;
+					.a-top{
+						display: flex;
+						justify-content:space-between;
+						p{
+							//width:60%;
+							overflow: hidden;
+							text-overflow: ellipsis;
+							white-space: nowrap;
+						}
+						.top-price{
+							align-self:center;
+							color: #f85f48;
+							font-size: 30/@rem;
+						}
+					}
+					.a-middle{
+						margin-top: 36/@rem;
+						overflow: hidden;
+					}
+					.a-info{
+						margin-top: 20/@rem;
+						display: flex;
+						.footer-count{
+							flex:5;
+							text-align: right;
+							.count{
+		                        margin-right: 20/@rem;
+		                        .like-icon{
+		                              width: 28.8/@rem;
+		                              height: 28.8/@rem;
+		                              color: #999;
+		                              display: inline-block;
+		                              background-repeat: no-repeat;
+		                              background-size: contain;
+		                              vertical-align: -10%;
+		                              background-image: url("../img/tutorDetails-good.png");
+		                        }
+		                        .like-icon-zan{
+		                              width: 28.8/@rem;
+		                              height: 28.8/@rem;
+		                              color: #999;
+		                              display: inline-block;
+		                              background-repeat: no-repeat;
+		                              background-size: contain;
+		                              vertical-align: -10%;
+		                              background-image: url("../img/dianzan.png");
+		                        }
+		                  	}
+		                }
+					}
+				}
+			}
+		}
+	}
+}

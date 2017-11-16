@@ -1,0 +1,57 @@
+@rem:36rem;
+.bubble{
+  float: left;
+  margin-left: 20/@rem;
+  display: block;
+  background: #28aef5;
+  line-height: 2.2rem;
+  height: 2.2rem;
+  border-radius: 1.1rem;
+  text-align: center;
+  min-width: 9rem;
+  color: #fff;
+  font-size: .8rem;
+  text-decoration: none;
+  position: relative;
+  margin-right: .35rem;
+  .bubble-tail{
+    width: .83rem;
+    height: 1.185rem;
+    position: absolute;
+    bottom: 0;
+    left: -.3rem;
+    background-image: url("../img/listen-yuyin.png");
+    background-size: .83rem 1.185rem;
+  }
+  .wave1,.wave2,.wave3{
+    display: block;
+    width: .8rem;
+    height: .8rem;
+    background-size: .8rem;
+    position: absolute;
+    top: .65rem;
+    left: .65rem;
+  }
+  // .wave1{
+  //   background-image: url("../img/tutorDetails-yuyin2.png");
+  // }
+  // .wave2{
+  //   background-image: url("../img/tutorDetails-yuyin3.png");
+  // }
+  .wave3{
+    background-image: url("../img/tutorDetails-yuyin4.png");
+  }
+  .myDuration{
+    position: relative;
+    left: 40/@rem;
+  }
+  .bubble-playing{
+    animation:playyuyin 1s infinite;
+  }
+  @keyframes playyuyin
+  {
+    0%   {background-image: url("../img/tutorDetails-yuyin2.png");}
+    50%  {background-image: url("../img/tutorDetails-yuyin3.png");}
+    100% {background-image: url("../img/tutorDetails-yuyin4.png");}
+  }
+}

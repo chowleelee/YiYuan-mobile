@@ -1,0 +1,80 @@
+
+@rem: 36rem;
+
+.footer {
+	.mint-tabbar{
+		border-top:1px solid #e5e5e5;
+		display: flex;
+		.mint-tab-item{
+			flex:1;
+			padding:15/@rem 20/@rem;
+			a{
+				color:#818181;
+				img{
+					width: 40/@rem;
+					display: block;
+					margin:auto;
+					margin-bottom: 15/@rem;
+				}
+				i{
+					display: inline-block;
+					width: 100%;
+					height: 32/@rem;
+					background-size: auto 100%;
+					background-repeat: no-repeat;
+					background-position: 50%;
+					margin-bottom: 10/@rem;
+				}
+				.index-icon{
+					background-image: url("../img/index-icon.jpg");		
+				}
+				.listen-icon{
+					background-image: url("../img/listen-icon.jpg");		
+				}
+				.purchase-icon{
+					background-image: url("../img/purchase-icon.jpg");		
+				}
+				.uhome-icon{
+					background-image: url("../img/uhome-icon.jpg");		
+				}
+				&.router-link-exact-active{
+					color:#e56e44;
+					.index-icon{
+						background-image: url("../img/index-icon-on.jpg");		
+					}
+					.listen-icon{
+						background-image: url("../img/listen-icon-on.jpg");		
+					}
+					.purchase-icon{
+						background-image: url("../img/purchase-icon-on.jpg");		
+					}
+					.uhome-icon{
+						background-image: url("../img/uhome-icon-on.jpg");		
+					}
+				}
+				&.ask{
+					position: absolute;
+					padding: 30/@rem;
+					color:#fff;
+					//margin-bottom:-30/@rem;
+					top:-45/@rem;
+					left:0;
+					//left:300/@rem;
+					border-radius:100%;
+					background: #f75f48;
+					font-size: 50/@rem;
+				}
+			}
+			&.is-selected{
+				background:#fff;
+			}
+		}
+		.footer-ask{
+			.mint-tab-item-label{
+				position: relative;
+			}
+		}
+	}
+
+	
+}

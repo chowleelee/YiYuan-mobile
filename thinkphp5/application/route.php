@@ -1,0 +1,36 @@
+<?php
+use think\Route;
+//ask 问知api
+//特点一：支持resutFul
+//特点二：api接口不可以直接告诉调用者在哪一个控制器
+Route::resource('ask','api/ask');
+Route::resource('user','api/user');
+Route::resource('capt','api/capt');
+Route::resource('vip','api/vip');
+Route::resource('vpcategory','api/vpcategory');
+Route::resource('smalltalk','api/smalltalk');
+Route::resource('smalltalkContent','api/smalltalkContent');
+Route::resource('smalltalkCate','api/smalltalkCate');
+Route::resource('smalltalkAudio','api/smalltalkAudio');
+Route::resource('comment','api/comment');
+Route::resource('reply','api/reply');
+Route::resource('special','api/special');
+Route::resource('quickaskCate','api/quickaskCate');
+Route::resource('quickask','api/quickask');
+Route::resource('quickaskAnswer','api/quickaskAnswer');
+Route::resource('headline','api/headline');
+Route::resource('headlineRead','api/headlineRead');
+Route::resource('purchaseorder','api/purchaseorder');
+Route::resource('purchaseask','api/purchaseask');
+Route::resource('purchasequickask','api/purchasequickask');
+Route::resource('purchasebuy','api/purchasebuy');
+Route::resource('vipListen','api/vipListen');
+Route::resource('serch','api/serch');
+Route::resource('askLike','api/askLike');
+Route::resource('askListen','api/askListen');
+Route::resource('quickaskListen','api/quickaskListen');
+Route::resource('quickaskLike','api/quickaskLike');
+Route::resource('smalltalkAudioListen','api/smalltalkAudioListen');
+Route::resource('commentLike','api/commentLike');
+Route::resource('monitor','api/monitor');
+Route::resource('slider','api/slider');

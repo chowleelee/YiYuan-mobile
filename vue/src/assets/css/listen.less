@@ -1,0 +1,359 @@
+@rem: 36rem;
+
+.listen{
+      background: #f5f5f5;    
+      min-height: 100%;
+      .mint-navbar.is-fixed{
+          border-bottom: 1px solid #ccc
+      }
+      .mint-tab-container-item{
+            padding-bottom: 150/@rem;
+      }
+      .mint-navbar {
+            .mint-tab-item.is-selected{
+                  color: #f85f48;
+                  border-bottom: 5.4/@rem solid #f85f48;
+                  .mint-tab-item-label{
+                        font-size: 30/@rem;
+                  }
+            }
+            .mint-tab-item{
+                 .mint-tab-item-label{
+                        font-size: 30/@rem;
+                  } 
+            }
+      }
+      .listen-content{
+            margin-top: 100/@rem;
+            // padding-bottom: 150/@rem;
+            .a-feed{
+                  background-color: #fff;
+                  padding: 0 36/@rem 36/@rem;
+                  margin-bottom: 14/@rem;
+                  .header{
+                       display: flex;
+                       padding: 28.8/@rem 0 21.6/@rem;
+                       .listen-content-avatar{
+                              position: relative;
+                              width: 54/@rem;
+                              height: 54/@rem;
+                              border-radius: 50%;
+                       }
+                       .header-title{
+                              margin-left: 12.6/@rem;
+                              max-height: 50/@rem;
+                              line-height: 50/@rem;
+                              font-size: 26/@rem;
+                              text-overflow: ellipsis;
+                              overflow: hidden;
+                              white-space: nowrap;
+                              color: #999;
+                       }
+                  }
+                  .audio-question-content{
+                            display: -webkit-box;
+                            -webkit-box-orient: vertical;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                            margin-bottom: .6rem;
+                            font-size: .8rem;
+                            color: #191919;
+                            line-height: 1.15rem;
+                            max-height: 3.45rem;
+                            -webkit-line-clamp: 3;
+                            text-align: left;
+                  }
+                  .footer{
+                        display: flex;
+                        align-items:center;
+                        justify-content:space-between;
+                        .footer-answer{
+                          display: flex;
+                          margin-top: 20/@rem;
+                          .bubble{
+                            float: left;
+                            margin-left: 20/@rem;
+                            display: block;
+                            background: #1ccda6;
+                            line-height: 2.2rem;
+                            height: 2.2rem;
+                            border-radius: 1.1rem;
+                            text-align: center;
+                            min-width: 9rem;
+                            color: #fff;
+                            font-size: .8rem;
+                            text-decoration: none;
+                            position: relative;
+                            margin-right: .35rem;
+                            .bubble-tail{
+                              width: .83rem;
+                              height: 1.185rem;
+                              position: absolute;
+                              bottom: 0;
+                              left: -.3rem;
+                              background-image: url("../img/tutorDetails-yuyin.png");
+                              background-size: .83rem 1.185rem;
+                            }
+                            .wave1,.wave2,.wave3{
+                              display: block;
+                              width: .8rem;
+                              height: .8rem;
+                              background-size: .8rem;
+                              position: absolute;
+                              top: .65rem;
+                              left: .65rem;
+                            }
+                            .wave1{
+                              background-image: url("../img/tutorDetails-yuyin2.png");
+                            }
+                            .wave2{
+                              background-image: url("../img/tutorDetails-yuyin3.png");
+                            }
+                            .wave3{
+                              background-image: url("../img/tutorDetails-yuyin4.png");
+                            }
+                          }
+                          .bubble-blue{
+                            float: left;
+                            margin-left: 20/@rem;
+                            display: block;
+                            background: #28aef5;
+                            line-height: 2.2rem;
+                            height: 2.2rem;
+                            border-radius: 1.1rem;
+                            text-align: center;
+                            min-width: 9rem;
+                            color: #fff;
+                            font-size: .8rem;
+                            text-decoration: none;
+                            position: relative;
+                            margin-right: .35rem;
+                            .bubble-tail{
+                              width: .83rem;
+                              height: 1.185rem;
+                              position: absolute;
+                              bottom: 0;
+                              left: -.3rem;
+                              background-image: url("../img/listen-yuyin.png");
+                              background-size: .83rem 1.185rem;
+                            }
+                            .wave1,.wave2,.wave3{
+                              display: block;
+                              width: .8rem;
+                              height: .8rem;
+                              background-size: .8rem;
+                              position: absolute;
+                              top: .65rem;
+                              left: .65rem;
+                            }
+                            .wave1{
+                              background-image: url("../img/tutorDetails-yuyin2.png");
+                            }
+                            .wave2{
+                              background-image: url("../img/tutorDetails-yuyin3.png");
+                            }
+                            .wave3{
+                              background-image: url("../img/tutorDetails-yuyin4.png");
+                            }
+                          }
+                        }
+                        .answer-text{
+                          flex:1;
+                          font-size: .8rem;
+                          text-align: justify;
+                          padding-right: 20/@rem;
+                          .pay-look{
+                            display: inline-block;
+                            background: url(../img/uhome1.png) no-repeat;
+                            background-color: #1ccda6;
+                            background-position: 20/@rem 16/@rem;
+                            background-size:40/@rem;
+                            padding: 20/@rem 40/@rem 20/@rem 100/@rem;
+                              border-radius: 20/@rem;
+                            color: #fff;
+                          }
+                        }
+                        .tips-right{
+                            color: #999;
+                            font-size: 26/@rem;
+                            &.tips-text{
+                              align-self: end;
+                            }
+                        }
+                        .tips-right{
+                            color: #999;
+                            font-size: 26/@rem;
+                        }
+                  }
+            }
+      }
+      .leader-list{
+            margin-top: 100/@rem;
+            background-color: #fff;
+            .recommend{
+                  position: relative;
+                  margin: 0 36/@rem;
+                  padding: 36/@rem 0;
+                  border-bottom: 1px solid #e5e5e5;
+                  overflow: hidden;
+                  .listen-answer-info{
+                        display: flex; 
+                        align-items: center;  
+                        .avatar{
+                            position: relative;
+                            top: .555rem;
+                            left: 0.25rem;
+                            width: 2.65rem;
+                            height: 2.65rem;
+                            border-radius: 50%;
+                            margin-bottom: 32/@rem;
+                            img{
+                                  position: relative;
+                                  width: 2.65rem;
+                                  height: 2.65rem;
+                                  border-radius: 50%;
+                                  display: inline-block;
+                             }
+                             .avatar-true{
+                                  position: absolute;
+                                  width: 0.8833333333333333rem;
+                                  height: 0.8833333333333333rem;
+                                  right: 0;
+                                  bottom: 0;
+                             }
+                        } 
+                        .info-wrap{
+                              overflow: hidden;
+                              white-space: nowrap;
+                              text-overflow: ellipsis;
+                              font-size: 27/@rem;
+                              color: #999;
+                              margin-left: 38/@rem;
+                              text-align: left;
+                              .nickname{
+                                    font-size: 30/@rem;
+                                    color: #3f3f3f;
+                                    font-weight: 400;
+                               
+                              }
+                        }
+                  }
+                  
+            }
+      }
+      .recomend-title-bgc{
+            background-color: #fff;
+            .recomend-title{
+                border-bottom: 1px solid #e5e5e5;
+                margin: 0 36/@rem;
+                line-height: 130/@rem;
+                font-size: 24/@rem;
+                color: #999;
+                text-align: center;
+            }
+      }
+      .recomend-list{
+            background-color: #fff;
+            .recomend{
+                  display: flex;
+                  justify-content:space-between;
+                  margin: 0 36/@rem;
+                  padding: 36/@rem 0;
+                  border-bottom: 1px solid #e5e5e5;
+                  overflow: hidden;
+                  .recomend-list-info{
+                        display: flex;
+                        max-width: 540/@rem;
+                       .avatar{
+                            position: relative;
+                            top: .555rem;
+                            left: 0.25rem;
+                            width: 2.65rem;
+                            height: 2.65rem;
+                            border-radius: 50%;
+                            margin-bottom: 32/@rem;
+                            img{
+                                  position: relative;
+                                  width: 2.65rem;
+                                  height: 2.65rem;
+                                  border-radius: 50%;
+                                  display: inline-block;
+                             }
+                             .avatar-true{
+                                  position: absolute;
+                                  width: 0.8833333333333333rem;
+                                  height: 0.8833333333333333rem;
+                                  right: 0;
+                                  bottom: 0;
+                             }
+                        } 
+                        .info-wrap{
+                              overflow: hidden;
+                              white-space: nowrap;
+                              text-overflow: ellipsis;
+                              font-size: 27/@rem;
+                              color: #999;
+                              margin-left: 38/@rem;
+                              text-align: left;
+                              .nickname{
+                                    font-size: 30/@rem;
+                                    color: #3f3f3f;
+                                    font-weight: 400;
+                              }
+                              p{
+                                  overflow: hidden;
+                                  white-space: nowrap;
+                                  text-overflow: ellipsis;
+                              }
+                        }
+                  }
+                  .listen-follow{
+                      flex-basis: 2.4rem;
+                      flex-shrink: 0;
+                      box-sizing: border-box;
+                      border: 1px solid #f85f48;
+                      margin: auto 0;
+                      width: 2.4rem;
+                      height: 1.45rem;
+                      border-radius: .2rem;
+                      background-image: url("../img/tutorDetails-listen.png");
+                      background-position: 50%;
+                      background-size: 1.3rem .72rem;
+                      background-repeat: no-repeat;
+                  }
+                  .listen-followed{
+                      flex-basis: 2.4rem;
+                      flex-shrink: 0;
+                      box-sizing: border-box;
+                      margin: auto 0;
+                      width: 2.4rem;
+                      height: 1.45rem;
+                      border-radius: .2rem;
+                      background-color: #b2b2b2;
+                      background-image: url("../img/tutorDetails-listened.png");
+                      background-position: 50%;
+                      background-size: 1.3rem .72rem;
+                      background-repeat: no-repeat;
+                  }
+                  
+            }
+      }
+      .tips{
+        width:100%;
+        padding:400/@rem 0;
+        font-size: 32/@rem;
+        p{
+          color:#999;
+          margin-bottom:40/@rem;
+        }
+        .tip-btn{
+          background: #f85f48;
+          color:#fff;
+          display: inline-block;
+          padding:20/@rem 40/@rem;
+          border-radius: 4px;
+        }
+      }
+      
+
+}

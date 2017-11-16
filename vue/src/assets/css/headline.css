@@ -1,0 +1,40 @@
+.headline {
+  background: #fff;
+  margin-bottom: 4.16666667rem;
+}
+.headline .headline-title {
+  margin: 0.83333333rem auto;
+  font-size: 1rem;
+  font-weight: normal;
+}
+.headline .everyday-headline .headline-day {
+  text-align: left;
+  height: 1.80555556rem;
+  line-height: 1.80555556rem;
+  background: #f5f5f5;
+  font-size: 0.77777778rem;
+  padding-left: 0.97222222rem;
+}
+.headline .everyday-headline .headline-list li {
+  text-align: left;
+  color: #afafaf;
+  padding: 0.83333333rem 0.97222222rem;
+  border-bottom: 0.11111111rem solid #f5f5f5;
+}
+.headline .everyday-headline .headline-list li .headline-name {
+  display: flex;
+  align-items: center;
+  font-size: 0.77777778rem;
+  color: #1a1a1a;
+}
+.headline .everyday-headline .headline-list li .headline-name img {
+  width: 1rem;
+  margin-right: 0.41666667rem;
+}
+.headline .everyday-headline .headline-list li .headline-name span.isRead {
+  color: #afafaf;
+}
+.headline .everyday-headline .headline-list li .headline-author {
+  font-size: 0.72222222rem;
+  margin-top: 0.55555556rem;
+}

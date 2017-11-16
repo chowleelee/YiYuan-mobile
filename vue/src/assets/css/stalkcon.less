@@ -1,0 +1,160 @@
+
+.stalkcon{
+	width: 100%;
+	margin: 0;
+	padding-bottom:4rem;
+	position: relative;
+	z-index: 100;
+	background: #fff;
+	.stalkhead{
+		position: relative;
+		width: 100%;
+		padding-bottom: 210px;
+		font-size: 0.9rem;
+		box-sizing: border-box;
+		background: url('../img/stalkheadbg.jpg') no-repeat;
+		padding-bottom: 56%;
+		background-size:100% 100%;
+		.headback{
+			text-align: left;
+			width: 100%;
+			position: absolute;
+			top: 0;
+			left: 0;
+			padding: 0 1rem;
+			line-height: 2.5rem;
+			height: 2rem;
+			color:#fff;
+			box-sizing: border-box;
+			background: linear-gradient(180deg,rgba(0,0,0,.3),transparent);
+    		text-shadow: 0 0 0.1rem rgba(0,0,0,.64);
+		}
+		.foottitle{
+			width: 100%;
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			color: #fff;
+			padding: 3rem 0 0.6rem ;
+			background: linear-gradient(180deg,transparent 5%,rgba(0,0,0,.3) 98%);
+		}
+	}
+	.content_line{
+		text-align: justify;
+		margin:0.6rem 1.25rem;
+		font-size: 0.95rem;
+		line-height:1.5rem;
+		word-wrap: break-word;
+		overflow: hidden;
+		.conline_two{
+			margin-top: 1.2rem;
+		}
+		span{
+			color:#6880b4;
+		}	
+	}
+	.seeall_btn{
+		color:#6880b4;
+		font-size:1rem;
+			display: block;
+			text-align: center;
+			position:relative;
+			background-image: linear-gradient(-180deg,hsla(0,0%,100%,.38),#fff 43%);
+			height: 3.2rem;
+			padding-top:3rem;
+			margin-top:-7.1rem;
+	}
+	.class_list{
+		h2{
+			padding: .25rem .925rem 0;
+		    line-height: 1.85rem;
+		    font-size: 1rem;
+		    font-weight: 700;
+		    color: #22adb6;
+		}
+		.teacher{
+			text-align:left;
+			padding:1.2rem 0;
+			border-top:1px solid #d8d8d8;
+			border-bottom:1px solid #e9e9e9;
+			display:flex;
+			margin-left: 1rem;
+			.headpic{
+				display:inline-block;
+				width: 3rem;
+				height: 3rem;
+				img{
+					width: 100%;
+					border-radius:50%;
+				}
+			}
+			.tea_name{
+			
+				overflow: hidden;
+				line-height:1.3rem;
+				margin-left:1rem;
+				display:inline-block;
+				.name{
+					
+					font-size:0.9rem;
+					font-weight:bold;
+				}
+				.profession{
+					color:#999;
+					font-size:0.9rem;
+					white-space: nowrap;
+					overflow: hidden;
+					text-overflow: ellipsis;
+				}
+			}
+		}
+		.class_topic{
+			text-align: left;
+			.classcon_list{
+				padding:0.8rem 0;
+				margin-left:1rem;
+				line-height:1.6rem;
+				.caption{
+					font-size:1rem;
+					font-weight:bold;
+				}
+				.join_num{
+					color:#999;
+				}
+
+			}
+			.classcon_list+.classcon_list{
+				border-top: 1px solid #e9e9e9;
+			}
+		}
+	}
+	.stalk_price{
+		background:#fff;
+		padding:0.4rem 0rem;
+		width: 100%;
+		z-index: 999999;
+		position:fixed;
+		bottom: 0;
+		display:flex;
+		justify-content:space-between;
+		border-top:1px solid #e9e9e9;
+		.price{
+			margin-left:1.5rem;
+			line-height:3rem;
+			text-align:center;
+			color: #f85f48;
+		    font-size: 1rem;
+		    font-weight: 700;
+			display:inline-block;
+		}
+		.sub_btn{
+			margin-right:1.5rem;
+			display:inline-block;
+			padding:0.6rem 1.5rem;
+			background:#f85f48;
+			border-radius:5px;
+			color: #fff;
+		    font-size: 1rem;
+		}
+	}
+}

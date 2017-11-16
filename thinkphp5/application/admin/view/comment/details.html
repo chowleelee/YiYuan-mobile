@@ -1,0 +1,26 @@
+{include file='public/header'}
+	
+	<a href="{:url('index')}" class="btn btn-info">回到首页</a>
+	<h3>分答小讲回复管理页面</h3>
+	<table class="table">
+        <tr>
+            <th>编号</th>
+            <th>用户名</th>
+            <th>回复内容</th>
+            <th>操作</th>
+        </tr>
+        {foreach $reply_list as $value}
+        <tr>
+            <td>{$value['id']}</td>
+            <td>{$value['user_name']}</td>
+            <td>{$value['content']|mb_substr=0,10}...</td>
+            <td>
+                <a href="{:url('delete',['id'=>$value['id'],'table'=>'reply'])}" class="btn btn-danger">删除</a>
+            </td>
+        </tr>
+        {/foreach}
+    </table>
+
+    <div>{$reply_list->render()}</div>	
+
+{include file='public/footer'}

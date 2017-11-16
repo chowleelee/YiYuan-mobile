@@ -1,0 +1,22 @@
+.text {
+  text-align: left;
+}
+.text .answer-content {
+  line-height: 1.25rem;
+  color: #191919;
+  font-size: 0.83333333rem;
+  text-align: left;
+  display: inline-block;
+  word-break: break-all;
+  word-wrap: break-word;
+  white-space: normal;
+}
+.text .answer-content.answer-content-all {
+  max-height: 100%;
+}
+.text .answer-show {
+  display: inline-block;
+  text-align: left;
+  color: #6880b4;
+  font-size: 0.77777778rem;
+}

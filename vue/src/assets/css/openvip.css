@@ -1,0 +1,141 @@
+.openvip {
+  height: 100%;
+  background: #f5f5f5;
+  position: relative;
+  z-index: 1000;
+}
+.openvip .container {
+  text-align: left;
+}
+.openvip input,
+.openvip textarea,
+.openvip select {
+  background: #fff;
+  outline: none;
+  border: none;
+  font-size: 0.77777778rem;
+}
+.openvip label {
+  font-size: 0.83333333rem;
+  color: #999;
+}
+.openvip .header-tip {
+  text-align: center;
+  font-size: .65rem;
+  padding: .5rem .75rem;
+  line-height: .9rem;
+  color: #fff;
+  background: #1ccda6;
+}
+.openvip .avatar {
+  position: relative;
+  background: #fff;
+  padding: 0.55555556rem 0;
+  height: 3rem;
+}
+.openvip .avatar .container {
+  position: relative;
+}
+.openvip .avatar label {
+  position: absolute;
+  left: 0;
+  line-height: 3rem;
+}
+.openvip .avatar input {
+  opacity: 0;
+  height: 3rem;
+  width: 100%;
+}
+.openvip .avatar img {
+  position: absolute;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  right: 0;
+}
+.openvip .nickname {
+  margin-top: 0.55555556rem;
+  background: #fff;
+  padding: 0.55555556rem 0;
+  height: 1.66666667rem;
+  line-height: 1.66666667rem;
+}
+.openvip .nickname input {
+  height: 1.66666667rem;
+  width: 88%;
+}
+.openvip .field {
+  margin-top: 0.55555556rem;
+  background: #fff;
+  padding: 0.55555556rem 0;
+  height: 1.66666667rem;
+  line-height: 1.66666667rem;
+}
+.openvip .field select {
+  height: 1.66666667rem;
+  width: 88%;
+}
+.openvip .ta {
+  margin-top: 0.55555556rem;
+  padding: 0.83333333rem 0;
+  background: #fff;
+}
+.openvip .ta .container {
+  position: relative;
+}
+.openvip .ta label {
+  display: block;
+  height: 1.11111111rem;
+  line-height: 1.11111111rem;
+}
+.openvip .ta textarea {
+  width: 100%;
+  height: auto;
+  resize: none;
+  scroll: none;
+}
+.openvip .ta .counter {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  font-size: 0.77777778rem;
+  color: #999;
+}
+.openvip .askme {
+  margin-top: 0.55555556rem;
+  background: #fff;
+  padding: 0.55555556rem 0;
+  height: 2.22222222rem;
+  line-height: 2.22222222rem;
+}
+.openvip .askme input {
+  height: 1.66666667rem;
+  width: 4.16666667rem;
+  border-radius: 5px;
+  background: #f5f5f5;
+  text-indent: 10px;
+}
+.openvip .btn {
+  margin-top: 0.83333333rem;
+  width: 8.33333333rem;
+  height: 2.5rem;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  color: #fff;
+  background: #F85F48;
+}
+.openvip .btn.disabled {
+  background: #999;
+}
+.openvip .tips {
+  position: relative;
+  z-index: 19891014;
+}
+.openvip .tips .mint-popup {
+  width: 80%;
+  height: 4rem;
+  line-height: 4rem;
+  border-radius: 10px;
+  z-index: 19891015;
+}

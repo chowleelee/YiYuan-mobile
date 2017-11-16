@@ -1,0 +1,26 @@
+{include file='public/header'}
+<div class="row">
+</div>
+<table class="table">
+    <tr>
+        <th>编号</th>
+        <th>用户名</th>
+        <th>评论内容</th>
+        <th>被评论小讲</th>
+        <th>操作</th>
+    </tr>
+    {foreach $comment_list as $value}
+    <tr>
+        <td>{$value['id']}</td>
+        <td>{$value['user_name']}</td>
+        <td>{$value['content']|mb_substr=0,7}...</td>
+        <td>{$value['title']|mb_substr=0,5}...</td>
+        <td>
+            <a href="{:url('details',['id'=>$value['id']])}" class="btn btn-info">回复</a>
+            <a href="{:url('delete',['id'=>$value['id'],'table'=>'comment'])}" class="btn btn-danger">删除</a>
+        </td>
+    </tr>
+    {/foreach}
+</table>
+<div>{$comment_list->render()}</div>
+{include file='public/footer'}

@@ -1,0 +1,326 @@
+@rem: 36rem;
+
+.novel{
+	width: 100%;
+	margin: 0;
+	position: relative;
+	z-index: 100;
+	background: #f5f5f5;
+	height:100%;
+	padding-bottom: 100/@rem;
+	.mint-main-button{
+		background: transparent;
+	}
+	.input_name{
+		position: relative;
+        z-index: 19891014;
+        .mint-popup{
+          width: 80%;
+          height: auto;
+          line-height: 4rem;
+          border-radius: 10px;
+          z-index: 19891015;
+          padding-top:50/@rem;
+        }
+        input{
+        	border:none;
+        	outline: none;
+        	background:#fff;
+        	display: inline-block;
+        }
+        input[type='text']{
+          	text-indent: 10px;
+          	height:50/@rem;
+          	border-radius: 5px;
+        	width:80%;
+        	display: block;
+        	margin:auto;
+        	border:1px solid #ccc;
+        }
+        input[type='button']{
+        	width:150/@rem;
+        	height:60/@rem;
+        	background: #1ccda6;
+        	border-radius: 5px;
+        	color:#fff;
+        	&.disabled{
+        		background: #999;
+        	}
+        }
+	}
+	.tips{
+		position: relative;
+        z-index: 19891014;
+        .mint-popup{
+          width: 80%;
+          height: 4rem;
+          line-height: 4rem;
+          border-radius: 10px;
+          z-index: 19891015;
+        }
+	}
+	.container{
+		text-align: left;
+	}
+	
+	.list-nav{
+		padding: 25/@rem 0;
+		a{
+			color: #999;
+			text-decoration: none;
+    		display: inline-block;
+    		font-size: 30/@rem;
+		}
+		.fabu{
+			float: right;
+			margin-right: 0;
+			color:#1ccda6;
+		} 
+	}
+	/* input,textarea{
+		border:none;
+		outline:none;
+		width: 100%;
+		background: #fff;
+		font-size: 28/@rem;
+	} */
+	/* .novel-title{
+		background: #fff;
+		margin-bottom: 1px;
+		input{
+			height:98/@rem;
+			line-height: 100@rem;
+			font-size: 36/@rem;
+		}
+	}
+	.novel-content{
+		background: #fff;
+		padding:20/@rem 0;
+		textarea{
+			font-size: 30/@rem;
+		}
+	} */
+	input,textarea,select{
+		background: #fff;
+		outline: none;
+		border:none;
+		font-size: 28/@rem;
+	}
+	label{
+		font-size: 30/@rem;
+		color:#999;
+	}
+	.novel-title{
+		margin-top:20/@rem;
+		background: #fff;
+		padding:20/@rem 0;
+		height: 60/@rem;
+		line-height: 60/@rem;
+		input{
+			height: 60/@rem;
+			width:88%;
+		}
+	}
+	.novel-img{
+		margin-top:20/@rem;
+		position: relative;
+		background: #fff;
+		height:158/@rem;
+		margin-bottom: 1px;
+		.container{
+			position: relative;
+		}
+		input{
+			opacity: 0;
+			height:158/@rem;
+		}
+		img{
+			position: absolute;
+		    width: 100%;
+		    height: 158/@rem;
+		    line-height:158/@rem;
+		    font-size: 34/@rem;
+		}
+	}
+	.novel-cate{
+		margin-top:20/@rem;
+		background: #fff;
+		padding:20/@rem 0;
+		height: 60/@rem;
+		line-height: 60/@rem;
+		select{
+			height: 60/@rem;
+			width:88%;
+		}
+	}
+	.novel-content{
+		margin-top:20/@rem;
+		margin-bottom:20/@rem;
+		padding:30/@rem 0;
+		background: #fff;
+		.container{
+			position: relative;
+		}
+		label{
+			display: block;
+			height:40/@rem;
+			line-height: 40/@rem;
+		}
+		textarea{
+			width:100%;
+			height:auto;
+			resize: none;
+			scroll:none;
+		}
+	}
+
+	.mint-palette-button{
+    	width:50/@rem;
+    	height:50/@rem;
+    	border-radius: 50%;
+    	line-height:50/@rem;
+    	font-size:24/@rem;
+    	font-weight:normal;
+    	color:rgb(255, 255, 255);
+    	background-color:  #1ccda6;
+    }
+    .nav_list_menu{
+    	background: #fff;
+	    padding-top:50/@rem;
+	    text-align: left;
+	    font-size: 36/@rem;
+	    color: #333;
+	    font-weight: 600;
+        overflow: hidden;
+        .container{
+	    	display: flex;
+	    	align-self: center;
+    		justify-content: space-between;
+        }
+    }
+	.class_list{
+		overflow: hidden;
+		background: #fff;
+		.mint-cell-wrapper{
+			padding:0;
+			input{
+				font-size:30/@rem;
+				color: #3f3f3f;
+			}
+		}
+		.mint-cell{
+			min-height:36/@rem;
+		}
+		.single-title{
+			margin:20/@rem 0;
+		}
+		.class_topic{
+			.classcon_list{
+				margin:30/@rem 0;
+				.single{
+					height:60/@rem;
+					display: flex;
+					border-bottom: 1px solid #f2f2f2;
+					.caption{
+						text-align: left;
+						width: 100%;
+					    color: #3f3f3f;
+					    font-size: 32/@rem;
+					    color: #3f3f3f;
+					    padding:0;
+					    font-weight: 700;
+					    flex:7;
+					    align-self:center;
+					}
+					.btn{
+						flex:4;
+						align-self:center;
+						.add-audio{
+							width:140/@rem;
+							height:50/@rem;
+							border:none;
+							outline: none;
+							background: #1ccda6;
+							font-size: 28/@rem;
+							border-radius: 5px;
+							position: relative;
+							color:#fff;
+							top:-7px;
+							input{
+								position: absolute;
+								width:140/@rem;
+								height:50/@rem;
+								opacity:0;
+								border-radius: 50%;
+								top:0;
+								left:0;
+							}
+						}
+					}
+				}
+			}
+			.single-content{
+				padding:20/@rem 0;
+				display:flex;
+				justify-content:space-between;
+				border-bottom:1px solid #f2f2f2;
+				.gre_title{
+				    padding-left: 20/@rem;
+				    flex-direction: row;
+					white-space: nowrap;
+				    overflow: hidden;
+				    text-overflow: ellipsis;
+				    flex: 7;
+				    display:flex;
+				    align-self:center;
+					.blue{
+						display: inline-block;
+					    padding: 0 8/@rem;
+					    background: #1ccda6;
+					    border-radius: 4/@rem;
+					    color: #fff;
+					    font-size: 20/@rem;
+					    height: 40/@rem;
+					    line-height: 40/@rem;
+					    margin-right:10/@rem;
+					}
+					.title{
+						white-space: nowrap;
+					    overflow: hidden;
+					    text-overflow: ellipsis;
+					    flex: 1;
+					    color: #3f3f3f;
+						font-size: 30/@rem;
+						text-align:left;
+					    height: 40/@rem;
+					    line-height: 40/@rem;
+					}
+				}
+				.timeapp{
+					border-bottom: none;
+					display: flex;
+					flex-direction: row;
+					align-items: center;
+					flex:2;
+				    font-size: 24/@rem;
+				    color: #999;
+					.bofang{
+				    margin-right: 14/@rem;
+				    width: 30/@rem;
+				    height: 30/@rem;
+				    background:url('../img/bofang.png') no-repeat;
+				    background-size: auto 100%;
+					}
+					.time{
+						
+					}
+				}	
+			}
+			/* .classcon_list+.classcon_list{
+				border-top: 1px solid #e9e9e9;
+			} */
+		}
+	}
+}
+
+

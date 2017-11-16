@@ -1,0 +1,182 @@
+.my-quickask {
+  background: #e5e5e5;
+  overflow: hidden;
+  min-height: 100%;
+}
+.my-quickask .container {
+  text-align: left;
+}
+.my-quickask .list-nav {
+  padding: 0.69444444rem 0;
+}
+.my-quickask .list-nav a {
+  color: #999;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 0.83333333rem;
+}
+.my-quickask .list-nav .fabu {
+  float: right;
+  margin-right: 0;
+  color: #f85f48;
+}
+.my-quickask .title-content {
+  padding-bottom: 0.55555556rem;
+}
+.my-quickask .title-content .main-content {
+  padding: 1.11111111rem 0.83333333rem 0.55555556rem;
+  background: white;
+  font-size: 0.88888889rem;
+}
+.my-quickask .title-content .main-content p {
+  text-align: justify;
+}
+.my-quickask .title-content .footer {
+  text-align: left;
+  background: white;
+  font-size: 0.72222222rem;
+  color: #999;
+  padding: 0 0.83333333rem 0.83333333rem;
+}
+.my-quickask .reward-link {
+  background: #e5e5e5;
+  padding-bottom: 0.55555556rem;
+}
+.my-quickask .reward-link .link-content {
+  background: white;
+  padding: 1.38888889rem 0.83333333rem 0.83333333rem 0.83333333rem;
+  text-align: left;
+  position: relative;
+}
+.my-quickask .reward-link .link-content img {
+  display: inline-block;
+  width: 1.66666667rem;
+}
+.my-quickask .reward-link .link-content p {
+  display: inline-block;
+}
+.my-quickask .reward-link .link-content .link-title {
+  font-size: 0.94444444rem;
+  color: #f85f48;
+  position: relative;
+  top: -1.11111111rem;
+  left: 0.83333333rem;
+}
+.my-quickask .reward-link .link-content .info {
+  color: #999;
+  font-size: 0.77777778rem;
+  display: block;
+  position: relative;
+  top: -0.55555556rem;
+  left: 2.91666667rem;
+}
+.my-quickask .reward-link .link-content span {
+  position: absolute;
+  right: 0.83333333rem;
+  top: 1.66666667rem;
+  color: #999;
+}
+.my-quickask .replies {
+  padding-bottom: 4.16666667rem;
+}
+.my-quickask .replies .relies-content {
+  background: #e5e5e5;
+}
+.my-quickask .replies .relies-content .a-relay {
+  background: white;
+  padding: 0.83333333rem;
+  font-size: 0.77777778rem;
+  color: #999;
+  overflow: hidden;
+  margin-bottom: 1px;
+}
+.my-quickask .replies .relies-content .a-relay .a-top {
+  display: flex;
+}
+.my-quickask .replies .relies-content .a-relay .a-top .img {
+  width: 1.94444444rem;
+  height: 1.94444444rem;
+  border-radius: 50%;
+  align-self: center;
+}
+.my-quickask .replies .relies-content .a-relay .a-top .img img {
+  width: 100%;
+  height: 100%;
+}
+.my-quickask .replies .relies-content .a-relay .a-top p {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  align-self: center;
+  text-align: left;
+  margin-left: 0.55555556rem;
+  flex: 5;
+}
+.my-quickask .replies .relies-content .a-relay .a-top .top-rewards {
+  align-self: center;
+  color: #f85f48;
+  font-size: 0.83333333rem;
+  border: 1px solid #f85f48;
+  border-radius: 4px;
+  padding: 0.08333333rem 0.41666667rem;
+}
+.my-quickask .replies .relies-content .a-relay .a-top .top-rewards.top-rewards-yes {
+  color: #999;
+  border: 1px solid #999;
+}
+.my-quickask .replies .relies-content .a-relay .a-top .top-price {
+  align-self: center;
+  color: #f85f48;
+  font-size: 0.83333333rem;
+}
+.my-quickask .replies .relies-content .a-relay .a-mid {
+  margin-left: 1.94444444rem;
+  overflow: hidden;
+}
+.my-quickask .replies .relies-content .a-relay .a-btm {
+  text-align: left;
+  margin-left: 1.94444444rem;
+  margin-top: 0.83333333rem;
+  display: flex;
+  /* span{
+						flex:7;
+					} */
+}
+.my-quickask .replies .relies-content .a-relay .a-btm .footer-count {
+  flex: 10;
+  text-align: right;
+}
+.my-quickask .replies .relies-content .a-relay .a-btm .footer-count .count {
+  margin-right: 0.55555556rem;
+}
+.my-quickask .replies .relies-content .a-relay .a-btm .footer-count .count .like-icon {
+  width: 0.8rem;
+  height: 0.8rem;
+  color: #999;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: contain;
+  vertical-align: -10%;
+  background-image: url("../img/tutorDetails-good.png");
+}
+.my-quickask .replies .relies-content .a-relay .a-btm .footer-count .count .like-icon-zan {
+  width: 0.8rem;
+  height: 0.8rem;
+  color: #999;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: contain;
+  vertical-align: -10%;
+  background-image: url("../img/dianzan.png");
+}
+.my-quickask .tips {
+  position: relative;
+  z-index: 19891014;
+}
+.my-quickask .tips .mint-popup {
+  width: 80%;
+  height: 4rem;
+  line-height: 4rem;
+  border-radius: 10px;
+  z-index: 19891015;
+}

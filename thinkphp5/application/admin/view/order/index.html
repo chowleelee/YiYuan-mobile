@@ -1,0 +1,29 @@
+{include file='public/header'}
+
+    <div class="row">
+       
+    </div>
+    <table class="table">
+        <tr>
+            <th>编号</th>
+            <th>用户名</th>
+            <th>订阅讲单</th>
+            <th>价格</th>
+            <th>操作</th>
+        </tr>
+        {foreach $order_list as $value}
+        <tr>
+            <td>{$value['id']}</td>
+            <td>{$value['user_name']}</td>
+            <td>{$value['title']}</td>
+            <td>{$value['price']}</td>
+            <td>
+                <a href="{:url('delete',['id'=>$value['id']])}" class="btn btn-danger">删除</a>
+            </td>
+        </tr>
+        {/foreach}
+    </table>
+
+    <div>{$order_list->render()}</div>
+
+{include file='public/footer'}

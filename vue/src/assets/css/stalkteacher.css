@@ -1,0 +1,934 @@
+.stalkteacher {
+  width: 100%;
+  margin: 0;
+  position: relative;
+  z-index: 100;
+  overflow: visible;
+}
+.stalkteacher.overflow {
+  overflow: hidden;
+  height: 100%;
+}
+.stalkteacher .stalkhead {
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  padding-bottom: 56%;
+  background-size: 100% 100%;
+}
+.stalkteacher .stalkhead .headback {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0 0.83333333rem;
+  line-height: 2.33333333rem;
+  height: 2rem;
+  color: #fff;
+  font-size: 0.77777778rem;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.3), transparent);
+  text-shadow: 0 0 0.1rem rgba(0, 0, 0, 0.64);
+}
+.stalkteacher .stalkhead .foottitle {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: #fff;
+  padding: 2.77777778rem 0rem 0.66666667rem;
+  background: linear-gradient(180deg, transparent 5%, rgba(0, 0, 0, 0.3) 98%);
+}
+.stalkteacher .stalkhead .foottitle h2 {
+  font-size: 1.11111111rem;
+  margin: 0.44444444rem 0;
+  margin-left: 1.11111111rem;
+  text-align: left;
+}
+.stalkteacher .stalkhead .foottitle .footlist {
+  margin-left: 1.11111111rem;
+  margin-top: 0.44444444rem;
+  display: flex;
+}
+.stalkteacher .stalkhead .foottitle .footlist span {
+  display: inline-block;
+  height: 0.88888889rem;
+  line-height: 1rem;
+  font-size: 0.77777778rem;
+}
+.stalkteacher .stalkhead .foottitle .footlist .pro_grow {
+  border: 1px solid;
+  border-radius: 0.88888889rem;
+  line-height: 0.88888889rem;
+  font-size: 0.55555556rem;
+  color: #fff;
+  padding: 0 0.44444444rem;
+  margin-right: 0.44444444rem;
+}
+.stalkteacher .container {
+  background: #fff;
+}
+.stalkteacher .teachercar {
+  border-top: 1px solid #f2f2f2;
+  padding-top: 0.61111111rem;
+  padding-bottom: 1.22222222rem;
+  flex-direction: row;
+  font-size: 0.66666667rem;
+  color: #999;
+  display: flex;
+  justify-content: space-around;
+}
+.stalkteacher .tutorpro {
+  padding: 0 0 0.55555556rem;
+  border-bottom: 1px solid #f2f2f2;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+}
+.stalkteacher .tutorpro .tea_name {
+  display: inline-block;
+  max-width: 16.11111111rem;
+  font-size: 0.83333333rem;
+  line-height: 1.33333333rem;
+  color: #999;
+}
+.stalkteacher .tutorpro .tea_name .name {
+  margin-right: 0.27777778rem;
+  color: #3f3f3f;
+  font-weight: 700;
+}
+.stalkteacher .tutorpro .tea_name .profession {
+  font-size: .75rem;
+  line-height: 1.33333333rem;
+  color: #999;
+}
+.stalkteacher .tutorpro .tutorDetails-follow {
+  flex-basis: 2.4rem;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  border: 1px solid #f85f48;
+  margin: auto 0;
+  width: 2.4rem;
+  height: 1.45rem;
+  border-radius: .2rem;
+  background-image: url("../img/tutorDetails-listen.png");
+  background-position: 50%;
+  background-size: 1.3rem .72rem;
+  background-repeat: no-repeat;
+}
+.stalkteacher .tutorpro .tutorDetails-followed {
+  flex-basis: 2.4rem;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  margin: auto 0;
+  width: 2.4rem;
+  height: 1.45rem;
+  border-radius: .2rem;
+  background-color: #b2b2b2;
+  background-image: url("../img/tutorDetails-listened.png");
+  background-position: 50%;
+  background-size: 1.3rem .72rem;
+  background-repeat: no-repeat;
+}
+.stalkteacher .nav_list_box {
+  padding-bottom: 0.33333333rem;
+  text-align: left;
+}
+.stalkteacher .nav_list_box .nav_list {
+  padding-top: 1.11111111rem;
+  font-size: 1.05555556rem;
+  color: #333;
+  font-weight: 700;
+}
+.stalkteacher .nav_list_box .content_line {
+  position: relative;
+  max-height: 4.16666667rem;
+  overflow: hidden;
+  white-space: pre-wrap;
+  word-break: break-all;
+  word-wrap: break-word;
+  font-size: 0.83333333rem;
+}
+.stalkteacher .nav_list_box .content_line .conline_one {
+  text-align: justify;
+  color: #3f3f3f;
+  margin-top: 0.55555556rem;
+  font-size: 0.83333333rem;
+  line-height: 1.25rem;
+}
+.stalkteacher .nav_list_box .content_line .show_all:before {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 3.75rem;
+}
+.stalkteacher .nav_list_box .content_line .show_all {
+  display: block;
+  float: right;
+  shape-outside: content-box;
+  -webkit-shape-outside: content-box;
+  color: #829fd1;
+  margin-top: 2.77777778rem;
+  line-height: 1.25rem;
+  text-align: left;
+}
+.stalkteacher .nav_list_box .content_line .hide_all {
+  color: #829fd1;
+}
+.stalkteacher .nav_list_box .seeall_btn {
+  color: #6880b4;
+  font-size: 1rem;
+  display: block;
+  text-align: right;
+}
+.stalkteacher .nav_list_menu {
+  background: #fff;
+  padding: 1.44444444rem 0 0;
+  text-align: left;
+  font-size: 1rem;
+  color: #333;
+  font-weight: 600;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  -webkit-box-align: center;
+  justify-content: space-between;
+  margin-bottom: -0.66666667rem;
+}
+.stalkteacher .nav_list_menu .app_download {
+  text-decoration: none;
+  font-weight: 700;
+  display: inline-block;
+  border: 1px solid #f85f48;
+  line-height: 1.72222222rem;
+  font-size: 0.00777778rem;
+  color: #f85f48;
+  padding: 0 0.58333333rem;
+  border-radius: 0.22222222rem;
+  box-sizing: border-box;
+}
+.stalkteacher .nav_list_menu .app_download .down_btn {
+  margin-top: -1px;
+  margin-right: 0.19444444rem;
+  display: inline-block;
+  vertical-align: middle;
+  width: 1.22222222rem;
+  height: 1.22222222rem;
+  background: url('../img/appdown.png') no-repeat;
+  background-size: 1.22222222rem 1.22222222rem;
+}
+.stalkteacher .class_list .class_topic {
+  /* .classcon_list+.classcon_list{
+				border-top: 1px solid #e9e9e9;
+			} */
+}
+.stalkteacher .class_list .class_topic .classcon_list {
+  padding: 0 0 0.8rem;
+  line-height: 1.6rem;
+  text-align: left;
+  /* 导语 */
+}
+.stalkteacher .class_list .class_topic .classcon_list .caption {
+  width: 100%;
+  padding: 0.66666667rem 0;
+  height: 2.77777778rem;
+  box-sizing: border-box;
+  padding: 0.97222222rem 0 0.38888889rem;
+  color: #3f3f3f;
+  font-size: 0.83333333rem;
+  border-bottom: 1px solid #f2f2f2;
+  line-height: 1.2;
+  font-weight: 700;
+}
+.stalkteacher .class_list .class_topic .classcon_list .content_on {
+  padding: 0.55555556rem 0;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #f2f2f2;
+}
+.stalkteacher .class_list .class_topic .classcon_list .content_on .gre_title {
+  margin-right: 0.22222222rem;
+  padding-left: 1rem;
+  flex-direction: row;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  flex: 1;
+  -webkit-box-flex: 1;
+  display: flex;
+}
+.stalkteacher .class_list .class_topic .classcon_list .content_on .gre_title .blue {
+  display: inline-block;
+  padding: 0 0.22222222rem;
+  background: #1ccda6;
+  border-radius: 0.11111111rem;
+  color: #fff;
+  font-size: 0.55555556rem;
+  margin-right: 0.19444444rem;
+  height: 1.11111111rem;
+  line-height: 1.11111111rem;
+}
+.stalkteacher .class_list .class_topic .classcon_list .content_on .gre_title .title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  flex: 1;
+  -webkit-box-flex: 1;
+  color: #3f3f3f;
+  font-size: 0.83333333rem;
+  text-align: left;
+  line-height: normal;
+}
+.stalkteacher .class_list .class_topic .classcon_list .content_on .gre_title .title.audio_listen {
+  color: #999;
+}
+.stalkteacher .class_list .class_topic .classcon_list .content_on .timeapp {
+  border-bottom: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  -webkit-box-align: center;
+  font-size: 0.66666667rem;
+  color: #999;
+}
+.stalkteacher .class_list .class_topic .classcon_list .content_on .timeapp .shu {
+  margin-right: 0.61111111rem;
+  width: 0.80555556rem;
+  height: 1.11111111rem;
+  background-position: 50%;
+  background: url('../img/shu.png') no-repeat;
+  background-size: 100% auto;
+}
+.stalkteacher .class_list .class_topic .classcon_list .content_on .timeapp .bofang {
+  margin-right: 0.38888889rem;
+  width: 0.83333333rem;
+  height: 0.83333333rem;
+  background: url('../img/bofang.png') no-repeat;
+  background-size: auto 100%;
+}
+.stalkteacher .stalk_price {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 2.72222222rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
+  text-align: center;
+  border-top: 1px solid #f2f2f2;
+}
+.stalkteacher .stalk_price a {
+  font-size: 0.72222222rem;
+  display: inline-block;
+  color: #666;
+  box-sizing: border-box;
+  height: 2.72222222rem;
+}
+.stalkteacher .stalk_price .giveta {
+  display: inline-block;
+  width: 20%;
+  background: url('../img/givegift.png') no-repeat;
+  padding-top: 1.66666667rem;
+  background-size: 1.11111111rem 1.11111111rem;
+  background-position: center top 0.33333333rem;
+}
+.stalkteacher .stalk_price .test_ting {
+  display: inline-block;
+  width: 20%;
+  background: url('../img/testlisten.png') no-repeat;
+  padding-top: 1.66666667rem;
+  background-size: 1.11111111rem 1.11111111rem;
+  background-position: center top 0.33333333rem;
+}
+.stalkteacher .stalk_price .sub_btn {
+  display: inline-block;
+  color: #fff;
+  width: 60%;
+  background: #f85f48;
+  font-weight: 700;
+  font-size: 1.05555556rem;
+  line-height: 2.72222222rem;
+  vertical-align: top;
+}
+.stalkteacher .stalk_price.stalk_buy .giveta {
+  flex: 1;
+}
+.stalkteacher .stalk_price.stalk_buy .ting {
+  flex: 1;
+  position: relative;
+}
+.stalkteacher .stalk_price.stalk_buy .ting span {
+  width: 2.77777778rem;
+  height: 2.77777778rem;
+  position: relative;
+  top: -0.69444444rem;
+  display: inline-block;
+  background: url('../img/appdown.png') no-repeat;
+  background-size: 2.77777778rem 2.77777778rem;
+}
+.stalkteacher .stalk_price.stalk_buy .comment_btn {
+  flex: 1;
+  display: inline-block;
+  width: 20%;
+  background: url('../img/smalltalk_comment_big.png') no-repeat;
+  padding-top: 1.66666667rem;
+  background-size: 1.11111111rem 1.11111111rem;
+  background-position: center top 0.33333333rem;
+}
+.stalkteacher .jaingring {
+  text-align: left;
+  background: #fff;
+  border-top: 0.27777778rem solid #f5f5f5;
+  border-bottom: 0.27777778rem solid #f5f5f5;
+  padding: 0rem 1.11111111rem;
+}
+.stalkteacher .jaingring .no-comment {
+  color: #bbb;
+  padding: 5.55555556rem 0;
+  text-align: center;
+  font-size: 0.83333333rem;
+}
+.stalkteacher .jaingring .samllring {
+  height: 2.66666667rem;
+  line-height: 2.66666667rem;
+  font-size: 0.94444444rem;
+}
+.stalkteacher .jaingring .reply {
+  height: 2.66666667rem;
+  line-height: 2.66666667rem;
+  margin-left: 0.5rem;
+  font-size: 0.83333333rem;
+  color: #f85f48;
+}
+.stalkteacher .jaingring .ring_comment li + li {
+  border-top: 1px solid #f2f2f2;
+}
+.stalkteacher .jaingring .ring_comment li .studenthead {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.83333333rem 0;
+}
+.stalkteacher .jaingring .ring_comment li .studenthead img {
+  display: inline-block;
+  width: 34px;
+  height: 34px;
+}
+.stalkteacher .jaingring .ring_comment li .studenthead .student_content {
+  flex: 1;
+  margin-left: 0.5rem;
+}
+.stalkteacher .jaingring .ring_comment li .studenthead .student_content h6 {
+  margin: 0;
+  font-weight: 700;
+  color: #6880b4;
+  margin-bottom: 0.5rem;
+}
+.stalkteacher .jaingring .ring_comment li .studenthead .student_content .common_con {
+  color: #3f3f3f;
+  font-size: 0.88888889rem;
+  line-height: 1.5;
+  overflow: hidden;
+  max-height: 7.8rem;
+  position: relative;
+}
+.stalkteacher .jaingring .ring_comment li .studenthead .student_content .common_con .common_top {
+  display: inline-block;
+  background: #f85f48;
+  color: #fff;
+  font-size: 0.8rem;
+  padding: 0.1rem 0.3rem;
+  border-radius: 5px;
+}
+.stalkteacher .jaingring .ring_comment li .studenthead .student_content .common_con .common_essence {
+  display: inline-block;
+  background: #28aef5;
+  color: #fff;
+  font-size: 0.8rem;
+  padding: 0.1rem 0.3rem;
+  border-radius: 5px;
+}
+.stalkteacher .jaingring .ring_comment li .studenthead .student_content .common_con .common_content {
+  text-overflow: ellipsis;
+}
+.stalkteacher .jaingring .ring_comment li .studenthead .student_content .common_con .showallcommon {
+  display: block;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: #fff;
+  color: #6880b4;
+}
+.stalkteacher .jaingring .ring_comment li .studenthead .student_content .common_con .hidecomment {
+  display: block;
+  color: #6880b4;
+}
+.stalkteacher .jaingring .ring_comment li .studenthead .student_content .time_assist {
+  font-size: 0.77777778rem;
+  color: #999;
+  margin-top: 0.7rem;
+  margin-bottom: 0.55555556rem;
+  display: flex;
+  justify-content: space-between;
+}
+.stalkteacher .jaingring .ring_comment li .studenthead .student_content .time_assist span {
+  display: inline-block;
+}
+.stalkteacher .jaingring .ring_comment li .studenthead .student_content .time_assist .acon_box {
+  display: inline-block;
+}
+.stalkteacher .jaingring .ring_comment li .studenthead .student_content .time_assist .acon_box .assist {
+  width: 2.22222222rem;
+  height: 0.77777778rem;
+  background: url('../img/tutorDetails-good.png') no-repeat;
+  background-size: 40% 100%;
+  background-position: 100%;
+  margin-right: 0.83333333rem;
+}
+.stalkteacher .jaingring .ring_comment li .studenthead .student_content .time_assist .acon_box .assist.islike {
+  background: url('../img/dianzan.png') no-repeat;
+  background-size: 40% 100%;
+  background-position: 100%;
+}
+.stalkteacher .jaingring .ring_comment li .studenthead .student_content .time_assist .acon_box .common {
+  width: 0.88888889rem;
+  height: 0.77777778rem;
+  background: url('../img/common.png') no-repeat;
+  background-size: 100% 100%;
+}
+.stalkteacher .jaingring .ring_comment li .studenthead .student_content .commonbox {
+  background: #f5f5f5;
+  border-radius: 0.27777778rem;
+  padding: 0.66666667rem;
+  font-size: 0.77777778rem;
+  line-height: 1.5;
+}
+.stalkteacher .jaingring .ring_comment li .studenthead .student_content .commonbox .common_writer {
+  color: #6880b4;
+  font-weight: 700;
+}
+.stalkteacher .jaingring .ring_comment li .studenthead .student_content .commonbox .show_art {
+  height: 2.44444444rem;
+  line-height: 2.44444444rem;
+  text-align: center;
+  font-size: 0.88888889rem;
+  color: #999;
+  border-top: 1px solid #e5e5e5;
+  margin: 0.66666667rem -0.66666667rem -0.66666667rem;
+}
+.stalkteacher .jaingring .join_cue {
+  text-align: center;
+  color: #999;
+  font-size: 0.77777778rem;
+  background: #fff;
+  padding-bottom: 1.11111111rem;
+}
+.stalkteacher .jaingring .join_cue .red_num {
+  color: #f85f48;
+}
+.stalkteacher .jaingring .smalltalk-comments {
+  color: #6880b4;
+  text-align: center;
+  margin-bottom: 0.55555556rem;
+  font-size: 0.83333333rem;
+}
+.stalkteacher .subject_albums {
+  background: #fff;
+  padding: 0 1.11111111rem;
+  text-align: left;
+  border-top: 0.33333333rem solid #f5f5f5;
+  border-bottom: 0.33333333rem solid #f5f5f5;
+}
+.stalkteacher .subject_albums h2 {
+  font-size: 1rem;
+  padding: 1.11111111rem 0 0;
+  color: #4a4a4a;
+  font-weight: 600;
+}
+.stalkteacher .subject_albums .subhead_box {
+  display: flex;
+  padding: 0.77777778rem 0;
+}
+.stalkteacher .subject_albums .subhead_box .subhead_pic {
+  display: inline-block;
+  width: 3.33333333rem;
+  height: 3.33333333rem;
+  border-radius: 5px;
+}
+.stalkteacher .subject_albums .subhead_box .subname {
+  overflow: hidden;
+  margin-left: 0.55555556rem;
+}
+.stalkteacher .subject_albums .subhead_box .subname p {
+  color: #999;
+  font-size: 0.94444444rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.stalkteacher .subject_albums .subhead_box .subname p .sub_lable {
+  display: inline-block;
+  padding: 0.11111111rem 0.22222222rem;
+  border-radius: 0.16666667rem;
+  background-color: #f85f48;
+  color: #fff;
+  font-size: 0.61111111rem;
+  text-align: center;
+  margin-right: 0.41666667rem;
+}
+.stalkteacher .subject_albums .subhead_box .subname p .class_name {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  font-weight: 700;
+  color: #191919;
+  font-size: 0.83333333rem;
+}
+.stalkteacher .subject_albums .subhead_box .subname .zhujiang {
+  color: #999;
+  font-size: 0.77777778rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.stalkteacher .subject_albums .subhead_box .subname .sub_num {
+  line-height: 1.3;
+  font-size: 0.77777778rem;
+}
+.stalkteacher .other_sub {
+  padding: 1.11111111rem;
+  background: #fff;
+  border-bottom: 4rem solid #f5f5f5;
+}
+.stalkteacher .other_sub .other_head {
+  display: flex;
+  height: 2rem;
+  line-height: 2rem;
+  justify-content: space-between;
+}
+.stalkteacher .other_sub .other_head .shead_box {
+  align-self: center;
+  position: relative;
+  width: 1.55555556rem;
+  height: 1.55555556rem;
+}
+.stalkteacher .other_sub .other_head .shead_box .shead_pic {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.stalkteacher .other_sub .other_head .shead_box .dav_pic {
+  width: 0.51388889rem;
+  height: 0.51388889rem;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.stalkteacher .other_sub .other_head .artname {
+  flex: 7;
+  align-self: center;
+  text-align: left;
+  font-size: 0.77777778rem;
+  margin-left: 0.55555556rem;
+}
+.stalkteacher .other_sub .other_head .one_on {
+  align-self: center;
+  font-size: 0.77777778rem;
+  color: #719ed3;
+}
+.stalkteacher .other_sub .other_class_list {
+  text-align: left;
+}
+.stalkteacher .other_sub .other_class_list .other_class {
+  padding: 0.55555556rem 0;
+}
+.stalkteacher .other_sub .other_class_list .other_class .class_list_name {
+  font-weight: 600;
+  font-size: 0.88888889rem;
+  color: #191919;
+  margin-bottom: 0.27777778rem;
+}
+.stalkteacher .other_sub .other_class_list .other_class .class_join_num {
+  font-size: 0.77777778rem;
+  color: #999;
+}
+.stalkteacher .other_sub .other_class_list li + li {
+  border-top: 1px solid #f5f5f5;
+}
+.stalkteacher .giveclass {
+  z-index: 10;
+  position: fixed;
+  top: 40%;
+  width: 100%;
+  height: 100%;
+  font-size: 0.88888889rem;
+  color: #3f3f3f;
+  max-width: 768px!important;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  line-height: 22px;
+  text-align: center;
+  background: #fff;
+  padding: 1.5rem 0 0;
+}
+.stalkteacher .giveclass .gift_title {
+  color: #3f3f3f;
+  line-height: 22px;
+  font-size: 1rem;
+  text-align: center;
+}
+.stalkteacher .giveclass .gift_box {
+  margin-top: 0.77777778rem;
+  padding: 0 1.19444444rem 1.05555556rem;
+  color: #3f3f3f;
+  text-align: left;
+}
+.stalkteacher .giveclass .gift_box .zengsong {
+  color: #999;
+  font-size: 0.77777778rem;
+  margin-bottom: 0.55555556rem;
+}
+.stalkteacher .giveclass .gift_box .error_box {
+  color: #f85f48;
+  font-size: 0.77777778rem;
+}
+.stalkteacher .giveclass .gift_box .fenshu {
+  display: flex;
+  justify-content: space-between;
+}
+.stalkteacher .giveclass .gift_box .numbox {
+  border: 1px solid #f85f48;
+  background: #f85f48;
+  color: #fff;
+  box-sizing: border-box;
+  width: 30%;
+  display: inline-block;
+  text-align: center;
+  height: 1.85rem;
+  line-height: 1.85rem;
+  border-radius: .2rem;
+  font-size: .8rem;
+  font-weight: 700;
+  margin-bottom: .875rem;
+  margin-right: 5%;
+}
+.stalkteacher .giveclass .gift_box .numone {
+  box-sizing: border-box;
+  width: 30%;
+  display: inline-block;
+  text-align: center;
+  border: 1px solid #cbcbcb;
+  height: 1.85rem;
+  line-height: 1.85rem;
+  border-radius: .2rem;
+  color: #3f3f3f;
+  font-size: .8rem;
+  font-weight: 700;
+  margin-bottom: .875rem;
+  margin-right: 5%;
+}
+.stalkteacher .giveclass .gift_box .custom_num {
+  display: flex;
+  flex-wrap: wrap;
+  aline-item: center;
+  justify-content: space-between;
+  line-height: 2.44444444rem;
+}
+.stalkteacher .giveclass .gift_box .custom_num .haosong {
+  color: #999;
+  text-align: center;
+  line-height: 2.44444444rem;
+}
+.stalkteacher .giveclass .gift_box .custom_num .songnum {
+  box-sizing: border-box;
+  width: 6.77777778rem;
+  display: inline-block;
+  border: 1px solid #cbcbcb;
+  height: 2.05555556rem;
+  border-radius: .2rem;
+  color: #999;
+  font-size: 0.88888889rem;
+  background: transparent;
+  outline: none;
+  box-shadow: none;
+  -webkit-appearance: none;
+  text-align: center;
+  margin: 0.22222222rem;
+}
+.stalkteacher .giveclass .gift_box .sharenum {
+  display: flex;
+}
+.stalkteacher .giveclass .gift_box .sharenum .custom_num {
+  display: flex;
+  flex-wrap: wrap;
+  aline-item: center;
+  justify-content: space-between;
+  line-height: 2.44444444rem;
+}
+.stalkteacher .giveclass .gift_box .sharenum .custom_num .haosong {
+  color: #999;
+  text-align: center;
+  line-height: 2.44444444rem;
+}
+.stalkteacher .giveclass .gift_box .sharenum .custom_num .songnum {
+  box-sizing: border-box;
+  width: 6.77777778rem;
+  display: inline-block;
+  border: 1px solid #cbcbcb;
+  height: 2.05555556rem;
+  border-radius: .2rem;
+  color: #999;
+  font-size: 0.88888889rem;
+  background: transparent;
+  outline: none;
+  box-shadow: none;
+  -webkit-appearance: none;
+  text-align: center;
+  margin: 0.22222222rem;
+}
+.stalkteacher .giveclass .gift_box .allprice {
+  font-size: 0.88888889rem;
+  font-weight: 700;
+  margin-top: 0.13888889rem;
+  color: #f85f48;
+}
+.stalkteacher .giveclass .gift_box .allprice .zhongse {
+  color: #3f3f3f;
+}
+.stalkteacher .giveclass .gift_box .tishi {
+  color: #999;
+  font-size: 0.72222222rem;
+  margin-top: 0.27777778rem;
+}
+.stalkteacher .giveclass .giveto_gift {
+  line-height: 2.44444444rem;
+  width: 90%;
+  background: #f85f48;
+  border: 1px solid #f85f48;
+  font-size: 0.83333333rem;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 0.33333333rem;
+  height: 2.44444444rem;
+  font-weight: bold;
+  margin: 0.01055556rem auto 0;
+}
+.stalkteacher .boughtcalss {
+  position: fixed;
+  top: 50%;
+  width: 100%;
+  font-size: 0.88888889rem;
+  color: #3f3f3f;
+}
+.stalkteacher .boughtcalss .boughtjoin {
+  min-width: 150px;
+  max-width: 768px!important;
+}
+.stalkteacher .boughtcalss .boughtjoin .boughtbox {
+  background: #fff;
+  border-radius: 3px;
+  padding: 20px 15px;
+  line-height: 22px;
+  text-align: center;
+}
+.stalkteacher .boughtcalss .boughtjoin .boughtbox .paytitle {
+  font-size: 1.11111111rem;
+  padding-bottom: 0.83333333rem;
+  text-align: center;
+}
+.stalkteacher .boughtcalss .boughtjoin .boughtbox .paycontent {
+  padding-top: 0.55555556rem;
+  font-size: 0.83333333rem;
+  line-height: 1.5;
+  color: #999;
+  margin-bottom: 0.83333333rem;
+  text-align: left;
+}
+.stalkteacher .boughtcalss .boughtjoin .boughtbox .paydetail {
+  color: #999;
+  padding-left: 1.05555556rem;
+  background: url('../img/payclassjoin.png') no-repeat;
+  background-size: 0.66666667rem 0.44444444rem;
+  background-position: 0;
+  font-size: 0.77777778rem;
+  text-align: left;
+}
+.stalkteacher .boughtcalss .boughtjoin .payorno {
+  display: flex;
+  text-align: center;
+  height: 60px;
+  line-height: 60px;
+  font-size: 0;
+  border-top: 1px solid #ebebeb;
+}
+.stalkteacher .boughtcalss .boughtjoin .payorno span {
+  display: inline-block;
+  width: 50%;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 0 3px 0 0;
+}
+.stalkteacher .boughtcalss .boughtjoin .payorno span + span {
+  border-left: 1px solid #f5f5f5;
+}
+.stalkteacher .boughtcalss .boughtjoin .payorno .sure {
+  color: #f85f48;
+}
+.stalkteacher .input-popup {
+  width: 95%;
+  min-height: 12.5rem;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.stalkteacher .input-popup .btn-wrap {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.83333333rem;
+  padding: 1rem 1rem 0;
+  background: #fff;
+}
+.stalkteacher .input-popup .btn-wrap .btn-cancel {
+  color: #3f3f3f;
+}
+.stalkteacher .input-popup .btn-wrap .btn-submit {
+  color: #f85f48;
+  border: 1px solid #f85f48;
+  padding: 0.13888889rem 0.41666667rem;
+  border-radius: 0.19444444rem;
+}
+.stalkteacher .input-popup .content {
+  display: block;
+  margin: 0.83333333rem auto 0;
+  width: 90%;
+  height: 6.94444444rem;
+  resize: none;
+  outline: none;
+  border-color: #ccc;
+  border-radius: 5px;
+  text-indent: 10px;
+}
+.stalkteacher .input-popup .count {
+  color: #999;
+  font-size: 0.88888889rem;
+  position: relative;
+  text-align: right;
+  left: -1.11111111rem;
+  top: -1.38888889rem;
+}
+.stalkteacher .tip-popup {
+  width: 80%;
+  height: 4rem;
+  line-height: 4rem;
+  border-radius: 10px;
+}

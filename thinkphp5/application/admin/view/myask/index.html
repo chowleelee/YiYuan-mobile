@@ -1,0 +1,86 @@
+{include file="public/header"} 
+
+<div class="mt-3">
+    <form class="form-inline" style="margin:20px 0;" action="">
+      <div class="form-group">
+        <label>提问者</label>
+        <input type="text" class="form-control" name="user_name" placeholder="Jane Doe">
+      </div>
+      <div class="form-group">
+        <label>答主</label>
+        <input type="text" class="form-control" name="vip_name" placeholder="Jane Doe">
+      </div>
+      <div class="form-group">
+        <label>公开</label>
+        <select class="form-control" name="is_public">
+            <option value="">请选择</option>
+            <option value="1" {if $is_public=='1'} selected {/if}>是</option>
+            <option value="0" {if $is_public=='0'} selected {/if}>否</option>
+        </select>
+      </div>
+      <!-- <div class="form-group">
+        <label>点赞</label>
+        <select class="form-control" name="vip_cate">
+            <option value="">请选择</option>
+            <option value="1">点赞最多</option>
+            <option value="0">点赞最少</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label>偷听</label>
+        <select class="form-control" name="vip_cate">
+            <option value="">请选择</option>
+            <option value="1">偷听最多</option>
+            <option value="0">偷听最少</option>
+        </select>
+      </div> -->
+      <button type="submit" class="btn btn-primary">搜索</button>
+    </form>
+    <table class="table">
+        <tr>
+            <th>编号</th>
+            <th>问题</th>
+            <th>提问者</th>
+            <th>答主</th>
+            <th>点赞</th>
+            <th>偷听</th>
+            <th>公开</th>
+            <th>状态</th>
+            <th>操作</th>
+        </tr>
+        {foreach $ask_list as $value}
+        <tr>
+            <td>{$value['id']}</td>
+            <td title="{$value['ask_content']}">{$value['ask_content']}</td>
+            <td title="{$value['user_name']}">{$value['user_name']}</td>
+            <td title="{$value['real_name']}">{$value['real_name']}</td>
+            <td>{$value['like_num']}</td>
+            <td>{$value['listen_num']}</td>
+            {if $value['is_public']==1}
+            <td>✔</td>
+            {else/}
+            <td>✖</td>
+            {/if}
+            {if $value['status']==1}
+            <td>待会答</td>
+            {elseif $value['status']==2}
+            <td>已回答</td>
+            {elseif $value['status']==3}
+            <td>已过期</td>
+            {elseif $value['status']==4}
+            <td>已婉拒</td>
+            {/if}
+            <td>
+                <a href="{:url('delete',['id'=>$value['id']])}" class="btn btn-danger">删除</a>
+            </td>
+        </tr>
+        {/foreach}
+    </table>
+    <div>
+        {$ask_list->render()}
+    </div>
+</div>
+<script>
+    
+</script>
+{include file="public/footer"}

@@ -1,0 +1,99 @@
+.reset-phone {
+  padding-top: 2.22222222rem;
+}
+.reset-phone .nav {
+  margin-bottom: 2.22222222rem;
+}
+.reset-phone .nav .step {
+  box-sizing: border-box;
+  width: 4rem;
+  background-size: 2.125rem 2.125rem;
+  background-repeat: no-repeat;
+  background-position: top;
+  display: inline-block;
+  white-space: nowrap;
+  font-size: .65rem;
+  padding-top: 2.6rem;
+  color: #999;
+}
+.reset-phone .nav .step1-done {
+  background-image: url('../img/reset1.png');
+  color: #1ccda6;
+}
+.reset-phone .nav .step2-done {
+  background-image: url('../img/reset3.png');
+  color: #1ccda6;
+}
+.reset-phone .nav .step2 {
+  background-image: url('../img/reset2.png');
+}
+.reset-phone .nav .line {
+  border-top: .15rem solid #999;
+  width: 3rem;
+  height: 1rem;
+  display: inline-block;
+  margin: 1rem -1.25rem 0;
+  vertical-align: top;
+}
+.reset-phone .nav .line-done {
+  border-color: #1ccda6;
+}
+.reset-phone .mint-cell {
+  min-height: 2.22222222rem;
+}
+.reset-phone .mint-cell .mint-cell-wrapper {
+  padding: 0;
+  font-size: 0.83333333rem;
+}
+.reset-phone .mint-field .mint-cell-title {
+  width: 4.44444444rem;
+  text-align: left;
+}
+.reset-phone .mint-field input {
+  line-height: 2.08333333rem;
+}
+.reset-phone .mint-field img {
+  width: 6.66666667rem;
+  height: 1.66666667rem;
+  vertical-align: middle;
+}
+.reset-phone .mint-button {
+  font-size: 0.83333333rem;
+  height: 2.22222222rem;
+  background: #f85f48;
+  margin-top: 2.22222222rem;
+}
+.reset-phone p {
+  font-size: 0.83333333rem;
+  color: #3f3f3f;
+  min-height: 2.22222222rem;
+  line-height: 2.22222222rem;
+  text-align: left;
+}
+.reset-phone .contact {
+  color: #999;
+  font-size: 0.77777778rem;
+}
+.reset-phone .contact span {
+  color: #f85f48;
+}
+.reset-phone .timerBtn {
+  color: #f85f48;
+  background: transparent;
+  outline: none;
+  border: none;
+}
+.reset-phone .timerBtn.active {
+  color: #999;
+}
+.reset-phone .tips {
+  position: relative;
+  z-index: 19891014;
+}
+.reset-phone .tips .mint-popup {
+  width: 80%;
+  height: 4rem;
+  line-height: 4rem;
+  border-radius: 10px;
+  z-index: 19891015;
+}

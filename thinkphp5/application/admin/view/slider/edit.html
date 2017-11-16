@@ -1,0 +1,29 @@
+{include file="public/header"} 
+
+<div class="self-container mt-3">
+    <h3>轮播图编辑页</h3>
+     <form action="{:url('update')}" method="post" enctype="multipart/form-data">
+        <div class="form-group">
+            <label >轮播图</label>
+            <div class="img" id="sliderimg">
+                <img alt="+点击添加图片" src="__PUBLIC__/static/api/img/{$slider_info['slider_img']}" class="show-img">
+                <input type="file" name="slider_img">
+            </div>
+        </div>
+        <div class="form-group">
+            <label >小讲</label>
+            <select name="smalltalk_id" class="form-control">
+                <option value="">请选择</option>
+               {foreach $smalltalk_list as $value}
+                <option {if $value['id']==$slider_info['smalltalk_id']} selected {/if} value="{$value['id']}">{$value['id']}</option>
+               {/foreach}
+            </select>
+        </div>
+        <div class="form-group">
+            <input type="hidden" name="img" value="{$slider_info['slider_img']}">
+            <input type="hidden" name="slider_id" value="{$slider_info.slider_id}">
+            <input type="submit" class="btn btn-info" value="保存">
+        </div>
+     </form>
+</div>
+{include file="public/footer"}

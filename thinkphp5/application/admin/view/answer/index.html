@@ -1,0 +1,60 @@
+{include file="public/header"} 
+
+<div class="mt-3">
+    <form class="form-inline" style="margin:20px 0;" action="">
+      <div class="form-group">
+        <label>答主</label>
+        <input type="text" class="form-control" name="real_name" placeholder="Jane Doe" value="{$real_name}">
+      </div>
+      <div class="form-group">
+        <label>问题编号</label>
+        <input type="text" class="form-control" name="quickask_id" placeholder="1" value="{$quickask_id}">
+      </div>
+      <div class="form-group">
+        <label>采纳</label>
+        <select class="form-control" name="is_select">
+            <option value="">请选择</option>
+            <option value="1" {if $is_select=='1'} selected {/if}>是</option>
+            <option value="0" {if $is_select=='0'} selected {/if}>否</option>
+        </select>
+      </div>
+      <button type="submit" class="btn btn-primary">搜索</button>
+    </form>
+    <table class="table">
+        <tr>
+            <th>编号</th>
+            <th>问题编号</th>
+            <th>答主</th>
+            <th>采纳</th>
+            <th>点赞</th>
+            <th>偷听</th>
+            <th>操作</th>
+        </tr>
+        {foreach $answer_list as $value}
+        <tr>
+            <td>{$value['id']}</td>
+            <td title="{$value['quickask_id']}">{$value['quickask_id']}</td>
+            <td title="{$value['real_name']}">{$value['real_name']}</td>
+            <td>
+            {if $value['is_select']==1}
+            ✔
+            {else/}
+            ✖
+            {/if}
+            </td>
+            <td title="{$value['like_num']}">{$value['like_num']}</td>
+            <td title="{$value['listen_num']}">{$value['listen_num']}</td>
+            <td>
+                <a href="{:url('delete',['id'=>$value['id']])}" class="btn btn-danger">删除</a>
+            </td>
+        </tr>
+        {/foreach}
+    </table>
+    <div>
+        {$answer_list->render()}
+    </div>
+</div>
+<script>
+    
+</script>
+{include file="public/footer"}

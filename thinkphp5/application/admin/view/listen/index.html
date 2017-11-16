@@ -1,0 +1,36 @@
+{include file="public/header"} 
+
+<div class="mt-3">
+    <form class="form-inline" style="margin:20px 0;" action="">
+      <div class="form-group">
+        <label>偷听者</label>
+        <input type="text" class="form-control" name="user_name" placeholder="Jane Doe" value="{$user_name}">
+      </div>
+      <button type="submit" class="btn btn-primary">搜索</button>
+    </form>
+    <table class="table">
+        <tr>
+            <th>编号</th>
+            <th>问题</th>
+            <th>偷听者</th>
+            <th>操作</th>
+        </tr>
+        {foreach $askbuy_list as $value}
+        <tr>
+            <td>{$value['id']}</td>
+            <td title="{$value['ask_content']}">{$value['ask_content']}</td>
+            <td title="{$value['user_name']}">{$value['user_name']}</td>
+            <td>
+                <a href="{:url('delete',['id'=>$value['id']])}" class="btn btn-danger">删除</a>
+            </td>
+        </tr>
+        {/foreach}
+    </table>
+    <div>
+        {$askbuy_list->render()}
+    </div>
+</div>
+<script>
+    
+</script>
+{include file="public/footer"}

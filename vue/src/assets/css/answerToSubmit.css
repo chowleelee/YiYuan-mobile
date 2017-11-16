@@ -1,0 +1,71 @@
+.answerToSubmit {
+  background-color: #f5f5f5;
+  height: 100%;
+  position: relative;
+  z-index: 10;
+}
+.answerToSubmit .pay .pay-details {
+  background: #fff;
+  text-align: center;
+  padding: 1.25rem 0;
+}
+.answerToSubmit .pay .pay-details .offer {
+  color: #f85f48;
+  font-size: 1rem;
+  font-weight: 700;
+}
+.answerToSubmit .pay .pay-details .type {
+  margin-top: 0.75rem;
+  color: #3f3f3f;
+  font-size: 0.75rem;
+}
+.answerToSubmit .pay .pay-method {
+  margin-top: 0.5rem;
+  background: #fff;
+}
+.answerToSubmit .pay .pay-method .item {
+  text-align: left;
+  height: 3rem;
+  line-height: 3rem;
+  background-repeat: no-repeat;
+  background-size: 1.05rem 1.05rem;
+  background-position: right .75rem center;
+  padding-left: .75rem;
+  font-size: .75rem;
+  border-bottom: 2px solid #f5f5f5;
+}
+.answerToSubmit .pay .pay-method .item .icon {
+  width: 1rem;
+  height: 1rem;
+  vertical-align: middle;
+  margin-right: 0.425rem;
+}
+.answerToSubmit .pay .pay-method .selected {
+  background-image: url('../img/answerToSubmit-pay.png');
+}
+.answerToSubmit .pay .pay-submit {
+  margin: 1.25rem 0.75rem 0;
+}
+.answerToSubmit .pay .pay-submit button {
+  display: inline-block;
+  line-height: 2.5rem;
+  width: 100%;
+  background: #F85F48;
+  border: 1px solid #F85F48;
+  font-size: 0.9rem;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 0.3rem;
+}
+.answerToSubmit .tips {
+  position: relative;
+  z-index: 19891014;
+}
+.answerToSubmit .tips .mint-popup {
+  width: 80%;
+  height: 4rem;
+  line-height: 4rem;
+  border-radius: 10px;
+  z-index: 19891015;
+}

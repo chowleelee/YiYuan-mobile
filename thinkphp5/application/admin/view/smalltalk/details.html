@@ -1,0 +1,19 @@
+{include file='public/header'}
+<a href="{:url('index')}" class="btn btn-info">返回首页</a>
+
+<table class="table">
+    <tr>
+        <th>编号</th>
+        <th>小讲讲单标题</th>
+        <th>小讲讲单内容</th>
+    </tr>
+    {foreach $stc_list as $value}
+    <tr>
+        <td>{$value['id']}</td>
+        <td>{$value['title']}</td>
+        <td>{$value['audio_name']|mb_substr=0,15}</td>
+    </tr>
+    {/foreach}
+</table>
+<div>{$stc_list->render()}</div>
+{include file='public/footer'}

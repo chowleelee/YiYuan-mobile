@@ -1,0 +1,351 @@
+.listen {
+  background: #f5f5f5;
+  min-height: 100%;
+}
+.listen .mint-navbar.is-fixed {
+  border-bottom: 1px solid #cccccc;
+}
+.listen .mint-tab-container-item {
+  padding-bottom: 4.16666667rem;
+}
+.listen .mint-navbar .mint-tab-item.is-selected {
+  color: #f85f48;
+  border-bottom: 0.15rem solid #f85f48;
+}
+.listen .mint-navbar .mint-tab-item.is-selected .mint-tab-item-label {
+  font-size: 0.83333333rem;
+}
+.listen .mint-navbar .mint-tab-item .mint-tab-item-label {
+  font-size: 0.83333333rem;
+}
+.listen .listen-content {
+  margin-top: 2.77777778rem;
+}
+.listen .listen-content .a-feed {
+  background-color: #fff;
+  padding: 0 1rem 1rem;
+  margin-bottom: 0.38888889rem;
+}
+.listen .listen-content .a-feed .header {
+  display: flex;
+  padding: 0.8rem 0 0.6rem;
+}
+.listen .listen-content .a-feed .header .listen-content-avatar {
+  position: relative;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+}
+.listen .listen-content .a-feed .header .header-title {
+  margin-left: 0.35rem;
+  max-height: 1.38888889rem;
+  line-height: 1.38888889rem;
+  font-size: 0.72222222rem;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  color: #999;
+}
+.listen .listen-content .a-feed .audio-question-content {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: .6rem;
+  font-size: .8rem;
+  color: #191919;
+  line-height: 1.15rem;
+  max-height: 3.45rem;
+  -webkit-line-clamp: 3;
+  text-align: left;
+}
+.listen .listen-content .a-feed .footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.listen .listen-content .a-feed .footer .footer-answer {
+  display: flex;
+  margin-top: 0.55555556rem;
+}
+.listen .listen-content .a-feed .footer .footer-answer .bubble {
+  float: left;
+  margin-left: 0.55555556rem;
+  display: block;
+  background: #1ccda6;
+  line-height: 2.2rem;
+  height: 2.2rem;
+  border-radius: 1.1rem;
+  text-align: center;
+  min-width: 9rem;
+  color: #fff;
+  font-size: .8rem;
+  text-decoration: none;
+  position: relative;
+  margin-right: .35rem;
+}
+.listen .listen-content .a-feed .footer .footer-answer .bubble .bubble-tail {
+  width: .83rem;
+  height: 1.185rem;
+  position: absolute;
+  bottom: 0;
+  left: -0.3rem;
+  background-image: url("../img/tutorDetails-yuyin.png");
+  background-size: .83rem 1.185rem;
+}
+.listen .listen-content .a-feed .footer .footer-answer .bubble .wave1,
+.listen .listen-content .a-feed .footer .footer-answer .bubble .wave2,
+.listen .listen-content .a-feed .footer .footer-answer .bubble .wave3 {
+  display: block;
+  width: .8rem;
+  height: .8rem;
+  background-size: .8rem;
+  position: absolute;
+  top: .65rem;
+  left: .65rem;
+}
+.listen .listen-content .a-feed .footer .footer-answer .bubble .wave1 {
+  background-image: url("../img/tutorDetails-yuyin2.png");
+}
+.listen .listen-content .a-feed .footer .footer-answer .bubble .wave2 {
+  background-image: url("../img/tutorDetails-yuyin3.png");
+}
+.listen .listen-content .a-feed .footer .footer-answer .bubble .wave3 {
+  background-image: url("../img/tutorDetails-yuyin4.png");
+}
+.listen .listen-content .a-feed .footer .footer-answer .bubble-blue {
+  float: left;
+  margin-left: 0.55555556rem;
+  display: block;
+  background: #28aef5;
+  line-height: 2.2rem;
+  height: 2.2rem;
+  border-radius: 1.1rem;
+  text-align: center;
+  min-width: 9rem;
+  color: #fff;
+  font-size: .8rem;
+  text-decoration: none;
+  position: relative;
+  margin-right: .35rem;
+}
+.listen .listen-content .a-feed .footer .footer-answer .bubble-blue .bubble-tail {
+  width: .83rem;
+  height: 1.185rem;
+  position: absolute;
+  bottom: 0;
+  left: -0.3rem;
+  background-image: url("../img/listen-yuyin.png");
+  background-size: .83rem 1.185rem;
+}
+.listen .listen-content .a-feed .footer .footer-answer .bubble-blue .wave1,
+.listen .listen-content .a-feed .footer .footer-answer .bubble-blue .wave2,
+.listen .listen-content .a-feed .footer .footer-answer .bubble-blue .wave3 {
+  display: block;
+  width: .8rem;
+  height: .8rem;
+  background-size: .8rem;
+  position: absolute;
+  top: .65rem;
+  left: .65rem;
+}
+.listen .listen-content .a-feed .footer .footer-answer .bubble-blue .wave1 {
+  background-image: url("../img/tutorDetails-yuyin2.png");
+}
+.listen .listen-content .a-feed .footer .footer-answer .bubble-blue .wave2 {
+  background-image: url("../img/tutorDetails-yuyin3.png");
+}
+.listen .listen-content .a-feed .footer .footer-answer .bubble-blue .wave3 {
+  background-image: url("../img/tutorDetails-yuyin4.png");
+}
+.listen .listen-content .a-feed .footer .answer-text {
+  flex: 1;
+  font-size: .8rem;
+  text-align: justify;
+  padding-right: 0.55555556rem;
+}
+.listen .listen-content .a-feed .footer .answer-text .pay-look {
+  display: inline-block;
+  background: url(../img/uhome1.png) no-repeat;
+  background-color: #1ccda6;
+  background-position: 0.55555556rem 0.44444444rem;
+  background-size: 1.11111111rem;
+  padding: 0.55555556rem 1.11111111rem 0.55555556rem 2.77777778rem;
+  border-radius: 0.55555556rem;
+  color: #fff;
+}
+.listen .listen-content .a-feed .footer .tips-right {
+  color: #999;
+  font-size: 0.72222222rem;
+}
+.listen .listen-content .a-feed .footer .tips-right.tips-text {
+  align-self: end;
+}
+.listen .listen-content .a-feed .footer .tips-right {
+  color: #999;
+  font-size: 0.72222222rem;
+}
+.listen .leader-list {
+  margin-top: 2.77777778rem;
+  background-color: #fff;
+}
+.listen .leader-list .recommend {
+  position: relative;
+  margin: 0 1rem;
+  padding: 1rem 0;
+  border-bottom: 1px solid #e5e5e5;
+  overflow: hidden;
+}
+.listen .leader-list .recommend .listen-answer-info {
+  display: flex;
+  align-items: center;
+}
+.listen .leader-list .recommend .listen-answer-info .avatar {
+  position: relative;
+  top: .555rem;
+  left: 0.25rem;
+  width: 2.65rem;
+  height: 2.65rem;
+  border-radius: 50%;
+  margin-bottom: 0.88888889rem;
+}
+.listen .leader-list .recommend .listen-answer-info .avatar img {
+  position: relative;
+  width: 2.65rem;
+  height: 2.65rem;
+  border-radius: 50%;
+  display: inline-block;
+}
+.listen .leader-list .recommend .listen-answer-info .avatar .avatar-true {
+  position: absolute;
+  width: 0.8833333333333333rem;
+  height: 0.8833333333333333rem;
+  right: 0;
+  bottom: 0;
+}
+.listen .leader-list .recommend .listen-answer-info .info-wrap {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size: 0.75rem;
+  color: #999;
+  margin-left: 1.05555556rem;
+  text-align: left;
+}
+.listen .leader-list .recommend .listen-answer-info .info-wrap .nickname {
+  font-size: 0.83333333rem;
+  color: #3f3f3f;
+  font-weight: 400;
+}
+.listen .recomend-title-bgc {
+  background-color: #fff;
+}
+.listen .recomend-title-bgc .recomend-title {
+  border-bottom: 1px solid #e5e5e5;
+  margin: 0 1rem;
+  line-height: 3.61111111rem;
+  font-size: 0.66666667rem;
+  color: #999;
+  text-align: center;
+}
+.listen .recomend-list {
+  background-color: #fff;
+}
+.listen .recomend-list .recomend {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 1rem;
+  padding: 1rem 0;
+  border-bottom: 1px solid #e5e5e5;
+  overflow: hidden;
+}
+.listen .recomend-list .recomend .recomend-list-info {
+  display: flex;
+  max-width: 15rem;
+}
+.listen .recomend-list .recomend .recomend-list-info .avatar {
+  position: relative;
+  top: .555rem;
+  left: 0.25rem;
+  width: 2.65rem;
+  height: 2.65rem;
+  border-radius: 50%;
+  margin-bottom: 0.88888889rem;
+}
+.listen .recomend-list .recomend .recomend-list-info .avatar img {
+  position: relative;
+  width: 2.65rem;
+  height: 2.65rem;
+  border-radius: 50%;
+  display: inline-block;
+}
+.listen .recomend-list .recomend .recomend-list-info .avatar .avatar-true {
+  position: absolute;
+  width: 0.8833333333333333rem;
+  height: 0.8833333333333333rem;
+  right: 0;
+  bottom: 0;
+}
+.listen .recomend-list .recomend .recomend-list-info .info-wrap {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size: 0.75rem;
+  color: #999;
+  margin-left: 1.05555556rem;
+  text-align: left;
+}
+.listen .recomend-list .recomend .recomend-list-info .info-wrap .nickname {
+  font-size: 0.83333333rem;
+  color: #3f3f3f;
+  font-weight: 400;
+}
+.listen .recomend-list .recomend .recomend-list-info .info-wrap p {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.listen .recomend-list .recomend .listen-follow {
+  flex-basis: 2.4rem;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  border: 1px solid #f85f48;
+  margin: auto 0;
+  width: 2.4rem;
+  height: 1.45rem;
+  border-radius: .2rem;
+  background-image: url("../img/tutorDetails-listen.png");
+  background-position: 50%;
+  background-size: 1.3rem .72rem;
+  background-repeat: no-repeat;
+}
+.listen .recomend-list .recomend .listen-followed {
+  flex-basis: 2.4rem;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  margin: auto 0;
+  width: 2.4rem;
+  height: 1.45rem;
+  border-radius: .2rem;
+  background-color: #b2b2b2;
+  background-image: url("../img/tutorDetails-listened.png");
+  background-position: 50%;
+  background-size: 1.3rem .72rem;
+  background-repeat: no-repeat;
+}
+.listen .tips {
+  width: 100%;
+  padding: 11.11111111rem 0;
+  font-size: 0.88888889rem;
+}
+.listen .tips p {
+  color: #999;
+  margin-bottom: 1.11111111rem;
+}
+.listen .tips .tip-btn {
+  background: #f85f48;
+  color: #fff;
+  display: inline-block;
+  padding: 0.55555556rem 1.11111111rem;
+  border-radius: 4px;
+}

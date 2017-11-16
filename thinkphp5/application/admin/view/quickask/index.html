@@ -1,0 +1,44 @@
+{include file="public/header"} 
+
+<div class="mt-3">
+    <form class="form-inline" style="margin:20px 0;" action="">
+      <div class="form-group">
+        <label>提问者</label>
+        <input type="text" class="form-control" name="user_name" placeholder="Jane Doe" value="{$user_name}">
+      </div>
+      <button type="submit" class="btn btn-primary">搜索</button>
+    </form>
+    <table class="table">
+        <tr>
+            <th>编号</th>
+            <th>问题</th>
+            <th>分类</th>
+            <th>价格</th>
+            <th>提问者</th>
+            <th>操作</th>
+        </tr>
+        {foreach $quickask_list as $value}
+        <tr>
+            <td>{$value['id']}</td>
+            <td>{$value['quickask_cate_id']}</td>
+            <td title="{$value['content']}">{$value['content']}</td>
+            <td>￥{$value['price']}</td>
+            {if $value['is_anonymous']==1}
+            <td title="{$value['user_name']}">{$value['user_name']}</td>
+            {else/}
+            <td>匿名</td>
+            {/if}
+            <td>
+                <a href="{:url('delete',['id'=>$value['id']])}" class="btn btn-danger">删除</a>
+            </td>
+        </tr>
+        {/foreach}
+    </table>
+    <div>
+        {$quickask_list->render()}
+    </div>
+</div>
+<script>
+    
+</script>
+{include file="public/footer"}

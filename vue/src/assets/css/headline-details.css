@@ -1,0 +1,128 @@
+.headline-details {
+  padding-bottom: 4.16666667rem;
+  background: #f5f5f5;
+}
+.headline-details img {
+  width: 100%;
+}
+.headline-details .headline-details-content {
+  background: #fff;
+}
+.headline-details .headline-details-content .headline-details-title {
+  text-align: left;
+  font-size: 1.05555556rem;
+}
+.headline-details .headline-details-content .headline-details-author {
+  display: flex;
+  align-items: center;
+}
+.headline-details .headline-details-content .headline-details-author .head {
+  position: relative;
+}
+.headline-details .headline-details-content .headline-details-author .head .head-img {
+  width: 1.94444444rem;
+  height: 1.94444444rem;
+  border-radius: 100%;
+  margin-right: 0.55555556rem;
+}
+.headline-details .headline-details-content .headline-details-author .head .true {
+  position: absolute;
+  width: 0.69444444rem;
+  height: 0.69444444rem;
+  right: -5 36rem;
+  bottom: 0;
+}
+.headline-details .headline-details-content .headline-details-author .nameAndidentity {
+  flex: auto;
+  font-size: 0.61111111rem;
+  text-align: left;
+}
+.headline-details .headline-details-content .headline-details-author .nameAndidentity .name {
+  margin-bottom: 0.41666667rem;
+}
+.headline-details .headline-details-content .headline-details-author .nameAndidentity .identity {
+  color: #b2b2b2;
+}
+.headline-details .headline-details-content .headline-details-author .headline-listen .tutorDetails-follow {
+  flex-basis: 2.4rem;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  border: 1px solid #f85f48;
+  margin: auto 0;
+  width: 2.4rem;
+  height: 1.45rem;
+  border-radius: .2rem;
+  background-image: url("../img/tutorDetails-listen.png");
+  background-position: 50%;
+  background-size: 1.3rem .72rem;
+  background-repeat: no-repeat;
+}
+.headline-details .headline-details-content .headline-details-author .headline-listen .tutorDetails-followed {
+  flex-basis: 2.4rem;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  margin: auto 0;
+  width: 2.4rem;
+  height: 1.45rem;
+  border-radius: .2rem;
+  background-color: #b2b2b2;
+  background-image: url("../img/tutorDetails-listened.png");
+  background-position: 50%;
+  background-size: 1.3rem .72rem;
+  background-repeat: no-repeat;
+}
+.headline-details .headline-details-content .headline-details-music {
+  margin: 1.11111111rem 0 1.38888889rem;
+  width: 100%;
+}
+.headline-details .headline-details-content .summary {
+  color: #949494;
+  font-size: 0.77777778rem;
+  text-align: left;
+  line-height: 1.5rem;
+}
+.headline-details .headline-details-content .headline-details-article {
+  padding: 1.11111111rem 0;
+  text-align: left;
+  font-size: 0.83333333rem;
+  line-height: 1.44444444rem;
+}
+.headline-details .other-headline {
+  background: #fff;
+  margin-top: 0.5rem;
+  padding-top: 1.05555556rem;
+}
+.headline-details .other-headline .headline-titleAndall {
+  display: flex;
+  padding: 0 0.97222222rem;
+}
+.headline-details .other-headline .headline-titleAndall .other-headline-title {
+  text-align: left;
+  font-size: 0.88888889rem;
+}
+.headline-details .other-headline .headline-titleAndall .to-allheadline {
+  flex: 1;
+  text-align: right;
+  font-size: 0.61111111rem;
+  color: #999999;
+}
+.headline-details .other-headline .headline-list li {
+  text-align: left;
+  color: #afafaf;
+  padding: 0.83333333rem 0.97222222rem;
+  border-bottom: 0.11111111rem solid #f5f5f5;
+}
+.headline-details .other-headline .headline-list li .headline-name {
+  display: flex;
+  align-items: center;
+  font-size: 0.77777778rem;
+  color: #1a1a1a;
+}
+.headline-details .other-headline .headline-list li .headline-name img {
+  width: 1rem;
+  margin-right: 0.41666667rem;
+}
+.headline-details .other-headline .headline-list li .headline-author {
+  font-size: 0.72222222rem;
+  margin-top: 0.55555556rem;
+}

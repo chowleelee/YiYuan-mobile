@@ -1,0 +1,275 @@
+@rem: 36rem;
+
+.answer{
+	text-align: left;
+	background: #f5f5f5;
+	width: 100%;
+	min-height: 100%;
+	//margin-bottom: 30/@rem;
+	.container{
+		text-align: left;
+	}
+	.list-nav{
+		background: #f5f5f5;
+		padding-top: 25/@rem;
+		display: flex;
+		a{
+			color: #999;
+			text-decoration: none;
+    		display: inline-block;
+    		margin-right: 130/@rem;
+    		line-height: 45/@rem;
+    		font-size: 30/@rem;
+		}
+		.current{
+			border-bottom: 4px solid #f85f48; 
+			color: #f85f48;
+		}
+		.drop-wrap{
+			color: #999;
+			font-size: 28/@rem;
+			position: relative;
+			// right: 40/@rem;
+			// top: -70/@rem;
+			flex:1;
+			color: #999;
+			text-align: right;
+			font-size: 30/@rem;
+			img{
+				position: relative;
+				width: 25/@rem;
+				top:-3/@rem;
+			}
+			
+			ul{
+			    position: absolute;
+				top: 70/@rem;
+				right: -20/@rem;
+				z-index: 1001;
+				box-sizing: border-box;
+				padding: 0 1rem;
+				min-width: 4.5rem;
+				background: #fff;
+				box-shadow: 0 2px 6px rgba(0,0,0,.2);
+				border-radius: 4px;
+    			.current{
+    				color: #f85f48;
+    			}
+				li{
+					border-bottom: 1px solid #e5e5e5;
+					line-height: 80/@rem;
+    				white-space: nowrap;
+    				text-align: center;
+				}
+			}
+		}
+	}
+	.main{
+		position: relative;
+		.question-list{
+			ul{
+				li{
+    				background: #fff;
+    				font-size: 32/@rem;
+    				margin: 20/@rem 0;
+					.question-header{
+						padding-top: 20/@rem;
+						display: flex;
+						img{
+							height: 70/@rem;
+							width: 70/@rem;
+							border-radius: 50%;
+						}
+						span{
+							line-height: 80/@rem;
+							align-self:center;
+						}
+						.user-name{
+    						margin-left: 10/@rem;
+    						flex:8;
+    						color: #3f3f3f;
+    						text-overflow: ellipsis;
+    						overflow: hidden;
+    						white-space: nowrap;
+						}
+						.state{
+							margin-left: 20/@rem;
+							color: #1ccda6;
+						}
+						.price{
+							color:#f85f48;
+						}
+					}
+					.question{
+						margin-top: 15/@rem;
+					}
+					.question-footer{
+						padding: 20/@rem 0;
+						.time{
+							color: #ababab;
+							font-size: 26/@rem;
+						}
+					}	
+				}
+			}
+		}
+	}
+	.quickask{
+		.none-info{
+			text-align: center;
+			padding-top: 20%;
+			img{
+				width: 180/@rem;
+				display: block;
+				margin:auto;
+			}
+			p{
+				color: #999;
+				font-size: 32/@rem;
+				margin-top: 20/@rem;
+			}
+			.btn{
+				margin-top:30/@rem;
+				width:200/@rem;
+				height:80/@rem;
+				border-radius: 5px;
+				outline: none;
+				border:none;
+				color:#fff;
+				background: #F85F48;
+			}
+		}
+		.qa-list{
+			display: inline-block;
+			line-height: 2.05rem;
+			width: 100%;
+			font-size: .8rem;
+			color: #fff;
+			text-decoration: none;
+			text-align: center;
+			border-radius: .3rem;
+			height: 2.05rem;
+			margin-top: .7rem;
+
+			margin-top: 18/@rem;
+            background-color: #f5f5f5;
+			.a-question{
+				margin-bottom: 18/@rem;
+				padding: 32.4/@rem 36/@rem 18/@rem;
+				background: #fff;
+              	.avatar{
+	                width: 61.2/@rem;
+	                height: 61.2/@rem;
+	                border-radius: 50%;
+	                margin-right: 20/@rem;
+	            }
+              	.content{
+	                font-size: 28.8/@rem;
+	                line-height: 39.6/@rem;
+	                color: #3f3f3f;
+	                overflow: hidden;
+	                text-align:justify;
+	                letter-spacing:1/@rem;
+              	}
+              	.Headlines{
+                	display: flex;
+                	.Headlines-content{
+                		width:100%;
+	                    max-height: 110/@rem;
+	                    display: -webkit-box;
+	                    -webkit-line-clamp: 3;
+	                    -webkit-box-orient: vertical;
+	                    overflow: hidden;
+	                    text-overflow: ellipsis;
+                	}
+              	}
+              	.offer{
+	                float: left;
+	                margin-top: 10/@rem;
+	                font-size: .8rem;
+	                line-height: 1.1rem;
+	                color: #f85f48;
+              	}
+              	.question-answer{
+	                display: flex;
+	                margin-top: 20/@rem;
+	                .bubble{
+						float: left;
+						margin-left: 20/@rem;
+						display: block;
+						background: #28aef5;
+						line-height: 2.2rem;
+						height: 2.2rem;
+						border-radius: 1.1rem;
+						text-align: center;
+						min-width: 9rem;
+						color: #fff;
+						font-size: .8rem;
+						text-decoration: none;
+						position: relative;
+						margin-right: .35rem;
+						.bubble-tail{
+						      width: .83rem;
+						      height: 1.185rem;
+						      position: absolute;
+						      bottom: 0;
+						      left: -.3rem;
+						      background-image: url("../img/listen-yuyin.png");
+						      background-size: .83rem 1.185rem;
+						}
+						.wave1,.wave2,.wave3{
+						    display: block;
+						    width: .8rem;
+						    height: .8rem;
+						    background-size: .8rem;
+						    position: absolute;
+						    top: .65rem;
+						    left: .65rem;
+						}
+						.wave1{
+							background-image: url("../img/tutorDetails-yuyin2.png");
+						}
+						.wave2{
+							background-image: url("../img/tutorDetails-yuyin3.png");
+						}
+						.wave3{
+							background-image: url("../img/tutorDetails-yuyin4.png");
+						}
+	                }
+            	}
+              	.question-footer{
+                  	display: flex;
+					font-size: 24/@rem;
+					margin-top: 20/@rem;   
+					margin-left: 76/@rem;
+					color: #ababab;
+					align-items:center;
+					justify-content:space-between;
+					.count{
+                        margin-right: 20/@rem;
+                        .like-icon{
+							width: 28.8/@rem;
+							height: 28.8/@rem;
+							color: #999;
+							display: inline-block;
+							background-repeat: no-repeat;
+							background-size: contain;
+							vertical-align: -10%;
+							background-image: url("../img/tutorDetails-good.png");
+                        }
+                        .like-icon-zan{
+                              width: 28.8/@rem;
+                              height: 28.8/@rem;
+                              color: #999;
+                              display: inline-block;
+                              background-repeat: no-repeat;
+                              background-size: contain;
+                              vertical-align: -10%;
+                              background-image: url("../img/dianzan.png");
+                        }
+                  	}
+               }
+            }
+		}
+	}
+}

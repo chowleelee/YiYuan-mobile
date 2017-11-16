@@ -1,0 +1,32 @@
+{include file='public/header'}
+<div class="row">
+</div>
+<table class="table">
+    <tr>
+        <th>编号</th>
+        <th>专家名称</th>
+        <th>分类名称</th>
+        <th>小讲标题</th>
+        <th>专题</th>
+        <th>价格</th>
+        <th>创建时间</th>
+        <th>操作</th>
+    </tr>
+    {foreach $smalltalk_list as $value}
+    <tr>
+        <td>{$value['id']}</td>
+        <td>{$value['real_name']}</td>
+        <td>{$value['cate_name']}</td>
+        <td>{$value['st_title']|mb_substr=0,7}...</td>
+        <td>{$value['sts_title']|mb_substr=0,7}...</td>
+        <td>{$value['price']}</td>
+        <td>{$value['create_time']}</td>
+        <td>
+            <a href="{:url('details',['id'=>$value['id']])}" class="btn btn-info">详情</a>
+            <a href="{:url('delete',['id'=>$value['id']])}" class="btn btn-danger">删除</a>
+        </td>
+    </tr>
+    {/foreach}
+</table>
+<div>{$smalltalk_list->render()}</div>
+{include file='public/footer'}

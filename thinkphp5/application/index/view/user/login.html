@@ -1,0 +1,26 @@
+{include file="common/header"}
+ 
+	<h2>{$project_name}登录界面</h2>
+	<form action="">
+		<div class="form-group">
+			<label >
+				用户名
+			</label>
+			<input type="text" name="user_name" class="form-control">
+		</div>
+		<div class="form-group">
+			<label >
+				密码
+			</label>
+			<input type="text" name="user_pwd" class="form-control">
+		</div>
+		<div class="form-group">
+			 <input type="button" value="登录" class="btn btn-info" onclick="doLogin()">
+		</div>
+	</form>
+	 <script type="text/javascript">
+		var login_ajax_url = "{:url('user/doLoginAjax')}";
+	</script>
+	<script type="text/javascript" src="__STATIC_PATH__/index/js/login.js"> </script>
+</body>
+</html>

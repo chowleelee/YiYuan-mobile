@@ -1,0 +1,131 @@
+.ask-quickly {
+  background: #f5f5f5;
+  padding-bottom: 3.33333333rem;
+}
+.ask-quickly .reward-tags {
+  background: white;
+}
+.ask-quickly .reward-tags .reword-tags-content li {
+  width: 100%;
+  border-bottom: 1px solid #e5e5e5;
+  padding: 1.11111111rem 0 1.11111111rem;
+}
+.ask-quickly .reward-tags .reword-tags-content li a {
+  display: block;
+  position: relative;
+  text-align: left;
+  padding-left: 3.61111111rem;
+}
+.ask-quickly .reward-tags .reword-tags-content li a img {
+  display: inline-block;
+  width: 1.80555556rem;
+  position: absolute;
+  top: 20%;
+  left: 0.83333333rem;
+}
+.ask-quickly .reward-tags .reword-tags-content li a .title {
+  font-size: 0.88888889rem;
+}
+.ask-quickly .reward-tags .reword-tags-content li a .info {
+  font-size: 0.72222222rem;
+  color: #999;
+  margin-top: 0.33333333rem;
+}
+.ask-quickly .reward-tags .reword-tags-content li a .to-reward-wrap {
+  position: absolute;
+  top: -5%;
+  right: 0.83333333rem;
+  margin-top: 10px;
+}
+.ask-quickly .reward-tags .reword-tags-content li a .to-reward-wrap .ask-btn {
+  display: inline-block;
+  border-radius: 0.83333333rem;
+  border: 1px solid #f85f48;
+  padding: 0.27777778rem 0rem;
+  width: 2.77777778rem;
+  text-align: center;
+  color: #f85f48;
+  font-size: 0.69444444rem;
+}
+.ask-quickly .rewards-ques {
+  margin: 0.55555556rem 0;
+  text-align: left;
+  background: white;
+  font-size: 0.77777778rem;
+  background: #f5f5f5;
+}
+.ask-quickly .rewards-ques .rewards-title {
+  background: white;
+  border-bottom: 1px solid #e5e5e5;
+  padding: 1.11111111rem 0 0.69444444rem 0.83333333rem;
+}
+.ask-quickly .rewards-ques .rewards-title span {
+  color: #999;
+}
+.ask-quickly .rewards-ques .rewards-title .selected {
+  color: black;
+}
+.ask-quickly .rewards-ques .rewards-title .line {
+  margin: 0 0.69444444rem;
+}
+.ask-quickly .rewards-ques .rewards-list li {
+  margin-bottom: 0.55555556rem;
+  background: white;
+}
+.ask-quickly .rewards-ques .rewards-list li .rewards-head {
+  padding: 0.83333333rem;
+}
+.ask-quickly .rewards-ques .rewards-list li .rewards-head .user {
+  color: #999;
+}
+.ask-quickly .rewards-ques .rewards-list li .rewards-head .price {
+  float: right;
+  color: #f85f48;
+}
+.ask-quickly .rewards-ques .rewards-list li .rewards-content {
+  padding: 0 0.83333333rem;
+}
+.ask-quickly .rewards-ques .rewards-list li .rewards-content p {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.ask-quickly .rewards-ques .rewards-list li .rewards-footer {
+  padding: 0 0.83333333rem;
+  margin-top: 0.83333333rem;
+  font-size: 0.66666667rem;
+  color: #999;
+  padding-bottom: 0.83333333rem;
+}
+.ask-quickly .rewards-ques .rewards-list li .rewards-footer span + span {
+  margin-left: 0.27777778rem;
+}
+.ask-quickly .rewards-ques .rewards-list li .rewards-footer .replay {
+  display: inline-block;
+  vertical-align: middle;
+  border: 1px solid #f85f48;
+  border-radius: 0.69444444rem;
+  width: 2.77777778rem;
+  text-align: center;
+  color: #f85f48;
+  float: right;
+  padding: 0.19444444rem 0;
+  margin-top: -0.27777778rem;
+}
+.ask-quickly .rewards-ques .rewards-list li .rewards-tip {
+  color: #999;
+  padding: 0.83333333rem 0;
+  font-size: 0.55555556rem;
+  border-top: 1px solid #e5e5e5;
+}
+.ask-quickly .rewards-ques .rewards-list li .rewards-tip .info {
+  display: flex;
+  padding: 0 0.83333333rem;
+}
+.ask-quickly .rewards-ques .rewards-list li .rewards-tip .info .tutor-info {
+  flex: 1;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}

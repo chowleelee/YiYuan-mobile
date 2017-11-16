@@ -1,0 +1,218 @@
+.index {
+  overflow: visible;
+}
+.index.overflow {
+  overflow: hidden;
+  height: 100%;
+}
+.index .mint-swipe {
+  height: 6.66666667rem;
+}
+.index .mint-swipe img {
+  width: 100%;
+}
+.index .content {
+  background: #f5f5f5;
+  padding: 0 0 4.16666667rem;
+}
+.index .content .menu {
+  background: #fff;
+  margin-bottom: 0.33333333rem;
+}
+.index .content .menu ul {
+  display: flex;
+  height: 4.16666667rem;
+  align-items: center;
+}
+.index .content .menu ul li {
+  flex: 1;
+  text-align: center;
+  font-size: 0.77777778rem;
+}
+.index .content .menu ul li a {
+  display: block;
+}
+.index .content .menu ul li a img {
+  margin: auto;
+  display: block;
+  width: 1.38888889rem;
+  margin-bottom: 0.5rem;
+}
+.index .content .menu ul li a span {
+  color: #1a1a1a;
+}
+.index .content .headline {
+  color: #161616;
+  margin: 0;
+  text-align: left;
+  font-size: 0.88888889rem;
+  font-weight: normal;
+}
+.index .content .topLine {
+  background: #fff;
+  padding-top: 1.11111111rem;
+  margin-bottom: 0.33333333rem;
+}
+.index .content .topLine .topLine-list {
+  padding: 0.83333333rem 0;
+  border-bottom: 1px solid #eaeaea;
+}
+.index .content .topLine .topLine-list li {
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+.index .content .topLine .topLine-list li + li {
+  margin-top: 0.66666667rem;
+}
+.index .content .topLine .topLine-list li .topLine-img {
+  width: 4.44444444rem;
+  height: 3.33333333rem;
+  margin-right: 0.44444444rem;
+  border-radius: 0.27777778rem;
+  flex: none;
+}
+.index .content .topLine .topLine-list li .topLine-play {
+  width: 0.97222222rem;
+  margin-right: 0.30555556rem;
+}
+.index .content .topLine .topLine-list li .topLine-basicInfo {
+  overflow: hidden;
+}
+.index .content .topLine .topLine-list li .topLine-basicInfo .topLine-title {
+  font-size: 0.77777778rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.index .content .topLine .topLine-list li .topLine-basicInfo .topLine-author {
+  margin-top: 0.27777778rem;
+  display: block;
+  font-size: 0.66666667rem;
+  color: #9b9b9b;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  flex: 1;
+}
+.index .content .topLine .unread {
+  padding: 0.69444444rem 0;
+  font-size: 0.72222222rem;
+  color: #9b9b9b;
+}
+.index .content .topLine .unread span {
+  display: inline-block;
+  margin-left: 0.27777778rem;
+  padding: 0.05555556rem 0.13888889rem;
+  color: #fff;
+  border-radius: 50%;
+  background: #f85f48;
+}
+.index .content .smallTalk {
+  background: #fff;
+  padding-top: 0.5rem;
+}
+.index .content .smallTalk .headline {
+  padding-bottom: 0.69444444rem;
+  border-bottom: 1px solid #eaeaea;
+}
+.index .content .smallTalk .smallTalk-cate {
+  color: #999999;
+  border-bottom: 1px solid #eaeaea;
+}
+.index .content .smallTalk .mint-navbar {
+  overflow: scroll;
+  overflow-scrolling: touch;
+}
+.index .content .smallTalk .mint-navbar .mint-tab-item {
+  flex: none;
+  margin-right: 1rem;
+  padding: 0.83333333rem 0 0.55555556rem;
+}
+.index .content .smallTalk .mint-navbar .mint-tab-item.is-selected {
+  border-bottom: 4px #f76943 solid;
+  color: #f76943;
+  font-weight: bold;
+}
+.index .content .smallTalk .mint-navbar .mint-tab-item.is-selected .mint-tab-item-label {
+  font-size: 0.83333333rem;
+}
+.index .content .smallTalk .mint-navbar .mint-tab-item .mint-tab-item-label {
+  font-size: 0.83333333rem;
+}
+.index .content .smallTalk .mint-navbar::-webkit-scrollbar {
+  display: none;
+}
+.index .content .smallTalk .mint-cell-wrapper {
+  padding: 0;
+  border-bottom: 1px solid #eaeaea;
+}
+.index .content .smallTalk .mint-cell-wrapper .mint-cell-title {
+  flex: 0;
+}
+.index .content .smallTalk .mint-cell-wrapper .mint-cell-value {
+  overflow: hidden;
+}
+.index .content .smallTalk .smallTalk-details {
+  display: flex;
+  color: #999;
+  font-size: 0.61111111rem;
+  padding: 0.83333333rem 0;
+  overflow: hidden;
+}
+.index .content .smallTalk .smallTalk-details .head-img {
+  width: 3.19444444rem;
+  flex: none;
+  margin-right: 0.77777778rem;
+}
+.index .content .smallTalk .smallTalk-details .head-img img {
+  width: 100%;
+}
+.index .content .smallTalk .smallTalk-details .info {
+  text-align: left;
+  overflow: hidden;
+}
+.index .content .smallTalk .smallTalk-details .info .title {
+  margin: 0;
+  color: #131313;
+  font-size: 0.77777778rem;
+  margin-bottom: 0.22222222rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  flex: 1;
+}
+.index .content .smallTalk .smallTalk-details .info .title .new {
+  display: inline-block;
+  padding: 0.13888889rem;
+  background: #f85f48;
+  color: #fff;
+  margin-right: 0.41666667rem;
+  font-weight: normal;
+  border-radius: 3px;
+}
+.index .content .smallTalk .smallTalk-details .info .tutor {
+  font-size: 0.72222222rem;
+  margin-bottom: 0.41666667rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.index .content .smallTalk .smallTalk-details .info .join_number {
+  margin-bottom: 0.27777778rem;
+  font-size: 0.66666667rem;
+}
+.index .content .smallTalk .smallTalk-details .info .join_number span {
+  border: 1px solid #9a9a9a;
+  border-radius: 5px;
+  padding: 1px 0.27777778rem;
+  margin-right: 0.27777778rem;
+}
+.index .content .smallTalk .more {
+  padding: 0.69444444rem 0;
+  font-size: 0.72222222rem;
+  color: #90abda;
+}
+.index .content .smallTalk .more span {
+  margin-left: 0.27777778rem;
+}

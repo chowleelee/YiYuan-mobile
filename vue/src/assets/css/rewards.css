@@ -1,0 +1,125 @@
+.rewards-container {
+  background: #f5f5f5;
+  padding-bottom: 3.33333333rem;
+}
+.rewards-container .rewards-header {
+  background: #fff;
+  padding: 1.11111111rem 0 0.55555556rem 0;
+}
+.rewards-container .rewards-header .banner img {
+  display: inline-block;
+  height: 2.22222222rem;
+  margin-bottom: -0.55555556rem;
+  width: 2.22222222rem;
+}
+.rewards-container .rewards-header .askBtn {
+  display: inline-block;
+  margin-top: 1.66666667rem;
+  padding: 0.55555556rem 1.38888889rem;
+  background: #f85f48;
+  border-radius: 1.11111111rem;
+  line-height: 0.83333333rem;
+  font-size: 0.83333333rem;
+  color: #fff;
+  margin-bottom: 1.11111111rem;
+  /* .icon-pencil{
+   					display: inline-block;
+   				    				vertical-align: middle;
+   				    				width: 40/@rem;
+   				    				height: 40/@rem;
+   				    				margin-right: .2rem;
+   									background: url('https://medias.zaih.com/Fmn6nEtn5EEdW_XEx9gvQIwWazGj') no-repeat;
+   									background-size: 100% auto;
+   				} */
+}
+.rewards-container .rewards-header .nav-list {
+  background: #f5f5f5;
+  padding-bottom: 0.83333333rem;
+}
+.rewards-container .rewards-header .nav-list ul {
+  background: white;
+  padding: 0.55555556rem 0.83333333rem;
+  border-top: 1px solid #e5e5e5;
+}
+.rewards-container .rewards-header .nav-list ul li {
+  display: inline-block;
+  font-size: 0.72222222rem;
+  color: #999;
+  margin-left: 1.38888889rem;
+}
+.rewards-container .rewards-header .nav-list ul li img {
+  display: inline-block;
+  width: 0.69444444rem;
+  position: relative;
+  top: 0.13888889rem;
+}
+.rewards-container .rewards-list {
+  /* background: #f5f5f5;
+		font-size: 30/@rem; */
+  font-size: 0.83333333rem;
+  text-align: left;
+}
+.rewards-container .rewards-list li {
+  margin-bottom: 0.55555556rem;
+  background: white;
+}
+.rewards-container .rewards-list li .rewards-head {
+  padding: 0.83333333rem;
+}
+.rewards-container .rewards-list li .rewards-head .user {
+  color: #999;
+  font-size: 0.77777778rem;
+}
+.rewards-container .rewards-list li .rewards-head .price {
+  float: right;
+  color: #f85f48;
+}
+.rewards-container .rewards-list li .rewards-content {
+  padding: 0 0.83333333rem;
+}
+.rewards-container .rewards-list li .rewards-content p {
+  text-align: left;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.rewards-container .rewards-list li .rewards-footer {
+  padding: 0 0.83333333rem;
+  margin-top: 0.83333333rem;
+  font-size: 0.66666667rem;
+  color: #999;
+  padding-bottom: 0.83333333rem;
+}
+.rewards-container .rewards-list li .rewards-footer span + span {
+  margin-left: 0.27777778rem;
+}
+.rewards-container .rewards-list li .rewards-footer .replay {
+  display: inline-block;
+  vertical-align: middle;
+  border: 1px solid #f85f48;
+  border-radius: 0.69444444rem;
+  width: 2.77777778rem;
+  text-align: center;
+  color: #f85f48;
+  float: right;
+  padding: 0.19444444rem 0;
+  margin-top: -0.27777778rem;
+}
+.rewards-container .rewards-list li .rewards-tip {
+  color: #999;
+  padding: 0.83333333rem 0;
+  font-size: 0.55555556rem;
+  border-top: 1px solid #e5e5e5;
+  text-align: left;
+}
+.rewards-container .rewards-list li .rewards-tip .info {
+  display: flex;
+  padding: 0 0.83333333rem;
+}
+.rewards-container .rewards-list li .rewards-tip .info .tutor-info {
+  flex: 1;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}

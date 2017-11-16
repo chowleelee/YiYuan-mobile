@@ -1,0 +1,30 @@
+{include file='public/header'}
+
+ <a href="{:url('add')}" class="btn btn-info">添加专题</a>
+
+    <div class="row">
+       
+    </div>
+    <table class="table">
+        <tr>
+            <th>编号</th>
+            <th>专题名称</th>
+            <th>专题讲师</th>
+            <th>操作</th>
+        </tr>
+        {foreach $special_list as $value}
+        <tr>
+            <td>{$value['id']}</td>
+            <td>{$value['title']}</td>
+            <td>{$value['introduce']}</td>
+            <td>
+                <a href="{:url('edit',['id'=>$value['id']])}" class="btn btn-info">编辑</a>
+                <a href="{:url('delete',['id'=>$value['id']])}" class="btn btn-danger">删除</a>
+            </td>
+        </tr>
+        {/foreach}
+    </table>
+
+    <div>{$special_list->render()}</div>
+
+{include file='public/footer'}

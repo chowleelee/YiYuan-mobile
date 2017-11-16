@@ -1,0 +1,179 @@
+.reward-details {
+  background: #e5e5e5;
+  overflow: hidden;
+  min-height: 100%;
+}
+.reward-details .title-content {
+  padding-bottom: 0.55555556rem;
+}
+.reward-details .title-content .header {
+  background: white;
+  padding: 0.69444444rem 0.83333333rem;
+  text-align: left;
+  display: flex;
+}
+.reward-details .title-content .header img {
+  display: inline-block;
+  width: 1.38888889rem;
+  height: 1.38888889rem;
+  border-radius: 50%;
+  align-self: center;
+}
+.reward-details .title-content .header .user {
+  color: #999;
+  margin-left: 0.27777778rem;
+  align-self: center;
+  flex: 8;
+  font-size: 0.77777778rem;
+}
+.reward-details .title-content .header .price {
+  float: right;
+  color: #f85f48;
+  align-self: center;
+  font-size: 0.83333333rem;
+}
+.reward-details .title-content .main-content {
+  padding: 0 0.83333333rem;
+  background: white;
+  font-size: 0.88888889rem;
+}
+.reward-details .title-content .main-content p {
+  text-align: left;
+}
+.reward-details .title-content .reply-panel {
+  background: white;
+}
+.reward-details .title-content .reply-panel .reply-btn {
+  display: inline-block;
+  padding: 0.41666667rem 1.25rem;
+  background: #999;
+  border-radius: 1.11111111rem;
+  color: #fff;
+  font-size: 0.88888889rem;
+  margin: 0.83333333rem 0 0.55555556rem 0;
+}
+.reward-details .title-content .reply-panel .reply-btn.access-to-answer {
+  background: #f85f48;
+}
+.reward-details .title-content .footer {
+  background: white;
+  font-size: 0.72222222rem;
+  color: #999;
+  padding: 0.27777778rem 0 0.83333333rem 0;
+}
+.reward-details .title-content .footer .disable-reason {
+  margin-bottom: 0.55555556rem;
+}
+.reward-details .reward-link {
+  background: #e5e5e5;
+  padding-bottom: 0.55555556rem;
+}
+.reward-details .reward-link .link-content {
+  background: white;
+  padding: 1.38888889rem 0.83333333rem 0.83333333rem 0.83333333rem;
+  text-align: left;
+  position: relative;
+}
+.reward-details .reward-link .link-content img {
+  display: inline-block;
+  width: 1.66666667rem;
+}
+.reward-details .reward-link .link-content p {
+  display: inline-block;
+}
+.reward-details .reward-link .link-content .link-title {
+  font-size: 0.94444444rem;
+  color: #f85f48;
+  position: relative;
+  top: -1.11111111rem;
+  left: 0.83333333rem;
+}
+.reward-details .reward-link .link-content .info {
+  color: #999;
+  font-size: 0.77777778rem;
+  display: block;
+  position: relative;
+  top: -0.55555556rem;
+  left: 2.91666667rem;
+}
+.reward-details .reward-link .link-content span {
+  position: absolute;
+  right: 0.83333333rem;
+  top: 1.66666667rem;
+  color: #999;
+}
+.reward-details .replies {
+  padding-bottom: 4.16666667rem;
+}
+.reward-details .replies .relies-content {
+  background: #e5e5e5;
+}
+.reward-details .replies .relies-content .a-relay {
+  background: white;
+  padding: 0.83333333rem;
+  font-size: 0.77777778rem;
+  color: #999;
+  overflow: hidden;
+  margin-bottom: 1px;
+  display: flex;
+}
+.reward-details .replies .relies-content .a-relay .a-left img {
+  display: inline-block;
+  width: 2.22222222rem;
+  height: 2.22222222rem;
+  border-radius: 50%;
+}
+.reward-details .replies .relies-content .a-relay .a-right {
+  text-align: left;
+  margin-left: 0.55555556rem;
+  width: 85%;
+}
+.reward-details .replies .relies-content .a-relay .a-right .a-top {
+  display: flex;
+  justify-content: space-between;
+}
+.reward-details .replies .relies-content .a-relay .a-right .a-top p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.reward-details .replies .relies-content .a-relay .a-right .a-top .top-price {
+  align-self: center;
+  color: #f85f48;
+  font-size: 0.83333333rem;
+}
+.reward-details .replies .relies-content .a-relay .a-right .a-middle {
+  margin-top: 1rem;
+  overflow: hidden;
+}
+.reward-details .replies .relies-content .a-relay .a-right .a-info {
+  margin-top: 0.55555556rem;
+  display: flex;
+}
+.reward-details .replies .relies-content .a-relay .a-right .a-info .footer-count {
+  flex: 5;
+  text-align: right;
+}
+.reward-details .replies .relies-content .a-relay .a-right .a-info .footer-count .count {
+  margin-right: 0.55555556rem;
+}
+.reward-details .replies .relies-content .a-relay .a-right .a-info .footer-count .count .like-icon {
+  width: 0.8rem;
+  height: 0.8rem;
+  color: #999;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: contain;
+  vertical-align: -10%;
+  background-image: url("../img/tutorDetails-good.png");
+}
+.reward-details .replies .relies-content .a-relay .a-right .a-info .footer-count .count .like-icon-zan {
+  width: 0.8rem;
+  height: 0.8rem;
+  color: #999;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: contain;
+  vertical-align: -10%;
+  background-image: url("../img/dianzan.png");
+}

@@ -1,0 +1,179 @@
+.showresult {
+  background-color: #f8f8f8;
+  color: #191919;
+  padding-bottom: 4.16666667rem;
+}
+.showresult .search {
+  background: #fff;
+  padding: 0.69444444rem 0;
+}
+.showresult .search .container {
+  display: flex;
+  justify-content: space-between;
+}
+.showresult .search .search-text {
+  border-radius: 0.27777778rem;
+  border: 1px solid #ddd;
+  outline: none;
+  flex: 8;
+  margin-right: 0.55555556rem;
+  text-indent: 0.83333333rem;
+  font-size: 0.77777778rem;
+  padding: 0.41666667rem 0;
+}
+.showresult .search .mint-button--danger {
+  background-color: #f85f48;
+}
+.showresult .search .search-btn {
+  font-size: 0.77777778rem;
+  padding: 0 0.55555556rem;
+  height: 1.80555556rem;
+}
+.showresult .mint-navbar {
+  background-color: #f8f8f8;
+}
+.showresult .mint-navbar .mint-tab-item {
+  padding-bottom: 0.55555556rem;
+}
+.showresult .mint-navbar .mint-tab-item.is-selected {
+  border-bottom: 2px solid #F85F48;
+  color: #F85F48;
+  margin-bottom: 0px;
+  font-weight: bold;
+}
+.showresult .mint-navbar .mint-tab-item .mint-tab-item-label {
+  font-size: 0.88888889rem;
+}
+.showresult .result-wrap {
+  background: #fff;
+}
+.showresult .result-wrap .wrap-title {
+  text-align: left;
+  font-size: 0.77777778rem;
+  color: #999;
+  padding: 0.55555556rem 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+.showresult .result-wrap .composed .composed-wrap {
+  border-bottom: 0.27777778rem solid #f8f8f8;
+}
+.showresult .result-wrap .composed .composed-wrap .composed-item .more {
+  display: flex;
+  padding: 0.55555556rem 0;
+}
+.showresult .result-wrap .composed .composed-wrap .composed-item .more span:nth-child(1) {
+  background: url('../img/search3.png');
+  background-repeat: no-repeat;
+  background-position: 0;
+  width: .525rem;
+  height: .525rem;
+  background-size: 100%;
+  align-self: center;
+}
+.showresult .result-wrap .composed .composed-wrap .composed-item .more span:nth-child(2) {
+  font-size: 0.77777778rem;
+  color: #1ccda6;
+  align-self: center;
+  flex: 8;
+  text-align: left;
+  padding-left: 0.27777778rem;
+}
+.showresult .result-wrap .composed .composed-wrap .composed-item .more span:nth-child(3) {
+  background: url('../img/search4.png');
+  background-repeat: no-repeat;
+  background-position: 0;
+  width: .325rem;
+  height: .655rem;
+  background-size: 100%;
+  align-self: center;
+}
+.showresult .result-wrap .composed .composed-wrap .composed-item .search-result {
+  width: 100%;
+}
+.showresult .result-wrap .search-result {
+  /* width:100%; */
+  padding: 0.97222222rem 0;
+  display: flex;
+  border-bottom: 1px solid #e5e5e5;
+}
+.showresult .result-wrap .search-result .img {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  overflow: hidden;
+  align-self: center;
+}
+.showresult .result-wrap .search-result .img img {
+  width: 100%;
+  height: 100%;
+}
+.showresult .result-wrap .search-result .info {
+  width: 78%;
+  text-align: left;
+  padding-left: 0.83333333rem;
+  align-self: center;
+}
+.showresult .result-wrap .search-result .info .title {
+  color: #3f3f3f;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: 700;
+  font-size: 0.83333333rem;
+  width: 100%;
+}
+.showresult .result-wrap .search-result .info .tutor {
+  color: #3f3f3f;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 0.27777778rem 0;
+  font-size: 0.77777778rem;
+}
+.showresult .result-wrap .search-result .info .join_number {
+  font-size: 0.77777778rem;
+}
+.showresult .result-wrap .search-result .ques {
+  width: 100%;
+  text-align: left;
+}
+.showresult .result-wrap .search-result .ques .title {
+  font-size: 0.83333333rem;
+  color: #3f3f3f;
+  line-height: 1rem;
+}
+.showresult .result-wrap .search-result .ques .tutor {
+  font-size: 0.77777778rem;
+  padding-top: 0.27777778rem;
+}
+.showresult .result-wrap .mint-cell .mint-cell-wrapper {
+  padding: 0;
+  background-image: none;
+}
+.showresult .result-wrap .mint-cell .mint-cell-wrapper .mint-cell-value {
+  width: 100%;
+}
+.showresult .result-wrap .none-info {
+  text-align: center;
+  padding-top: 20%;
+}
+.showresult .result-wrap .none-info img {
+  width: 5rem;
+  display: block;
+  margin: auto;
+}
+.showresult .result-wrap .none-info p {
+  color: #999;
+  font-size: 0.88888889rem;
+  margin-top: 0.55555556rem;
+}
+.showresult .result-wrap .none-info .btn {
+  margin-top: 0.83333333rem;
+  width: 5.55555556rem;
+  height: 2.22222222rem;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  color: #fff;
+  background: #F85F48;
+}
